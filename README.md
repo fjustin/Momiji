@@ -1,24 +1,33 @@
-# README
+# 和菓子メディア Momiji
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+和菓子専門メディア Momijiのレポジトリです。
+MomojiはRubyのフレームワークRuby on railsで作られています。
+herokuでのデプロイを目指します。<br><br>
+リリース予定日:9/1
+<br><br>
+## 各情報
+- Repository name : Momiji
+- Ruby version : 2.3.0
+- Ruby on Rails : 5.0.5
+- datebase : postgresql
 
-Things you may want to cover:
+## 開発環境設定
 
-* Ruby version
+ターミナルから以下コマンドを入力
 
-* System dependencies
+```
+git clone https://github.com/fjustin/Momiji.git
+```
 
-* Configuration
 
-* Database creation
+ファイルにアクセス後に以下コマンドを入力して開発
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle install
+```
+```
+rails db:create
+```
+```
+rails db:migrate
+```
