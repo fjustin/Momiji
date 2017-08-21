@@ -26,8 +26,8 @@ git clone https://github.com/fjustin/Momiji.git
 bundle install
 ```
 ```
-rails db:create
+rake db:create
 ```
 ```
-rails db:migrate
+rake db:migrate
 ```
