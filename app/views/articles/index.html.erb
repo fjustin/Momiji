@@ -14,4 +14,9 @@
   <%end%>
 </ul>
 
-<%= link_to '記事を投稿する',new_article_path %>
+<% if user_signed_in?%>
+    <%= link_to '記事を投稿する',new_article_path %>
+    <%= link_to 'ログアウト',destroy_user_session_path,method: :delete%>
+<%else%>
+    <%= link_to '管理者としてログイン',new_user_session_path %>
+<%end%>
