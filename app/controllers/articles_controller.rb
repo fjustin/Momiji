@@ -18,7 +18,7 @@ class ArticlesController < ApplicationController
     if @article.save
       redirect_to articles_path
     else
-      redirect_to articles_path
+      render 'articles/new'
     end
   end
 
@@ -26,8 +26,9 @@ class ArticlesController < ApplicationController
   end
 
   def update
-    if @article.update(article_params)
-      redirect_to articles_path
+    if @article.update_attributes(article_params)
+      flash[:success] = "記事を更新しました"
+      redirect_to articles_url
     else
       redirect_to 'edit'
     end
