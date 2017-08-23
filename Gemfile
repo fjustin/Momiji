@@ -49,6 +49,12 @@ gem 'cancan'
 # Use pagination
 gem 'kaminari'
 
+
+# Use qiita-markdown
+gem 'qiita-markdown'
+gem 'github-linguist'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
