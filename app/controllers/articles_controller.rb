@@ -36,7 +36,7 @@ class ArticlesController < ApplicationController
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image)
+    params[:article].permit(:title,:content,:image,:description)
   end
 
   def set_post
