@@ -16,7 +16,29 @@
     <% end %>
   </dl>
 
+
+  <div class="menu">
+    <div class="top-menu">
+      <%= link_to 'HOME', articles_path%>
+      <span>/</span>
+      <%= link_to 'LOGIN',new_user_session_path%>
+      <span>/</span>
+      <%= link_to 'ABOUT',articles_path%>
+    </div>
+  </div>
+
+
+  <div class="logo-space">
+    <h1>
+      <%= link_to 'MOMIJI',articles_path%>
+    </h1>
+  </div>
+
   <body>
     <%= yield %>
   </body>
+  <footer>
+    <p><span>MOMIJI</span>
+      MOMIJI. All Rights Reserved 複製及び無断転載禁止</p>
+  </footer>
 </html>
