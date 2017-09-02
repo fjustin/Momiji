@@ -322,12 +322,15 @@ footer span{
 }
 
 
+
+// 記事内のデザイン
 .showtitle{
   margin-left:180px;
   font-weight:bold;
   color:#000000;
-  font-size:20px;
+  font-size:36px;
 }
+
 
 .showcontent{
   margin-left:190px;
@@ -353,12 +356,12 @@ footer span{
   content:'';
   width:20%;
   height:4px;
-  background-color: #cf7f4b;
+  background-color: #FE2E2E;
 }
 
 .showcontent h3{
   font-weight:bold;
-  font-size:18px;
+  font-size:14px;
 }
 
 .cntnt{
@@ -370,6 +373,17 @@ footer span{
   margin-top:100px;
   text-align:center;
   text-decoration:none;
+}
+
+#desc{
+  width:550px;
+  height:auto;
+}
+
+#desc p{
+  color:#000000;
+  font-size:12px;
+  margin-left:190px;
 }
 
 

@@ -1,11 +1,11 @@
 <div id="cntnt">
+  <div class="showtitle">
+    <p><%= @article.title%><br>
+  </div>
   <div id="desc">
     <p>
       <%= @article.description%>
     </p>
-  </div>
-  <div class="showtitle">
-    <p><%= @article.title%><br>
   </div>
   <div class="showcontent">
     <%= qiita_markdown(@article.content) %>
