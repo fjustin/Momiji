@@ -153,6 +153,9 @@ GEM
       rack (>= 1.1)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-user_agent (0.5.2)
+      rack (>= 1.5)
+      woothee (>= 1.0.0)
     rails (5.0.5)
       actioncable (= 5.0.5)
       actionmailer (= 5.0.5)
@@ -253,6 +256,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    woothee (1.7.0)
 
 PLATFORMS
   ruby
@@ -271,6 +275,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.0)
   qiita-markdown
+  rack-user_agent
   rails (~> 5.0.4)
   rails_admin
   ransack

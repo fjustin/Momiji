@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Momiji</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<div class="logo-space-sp">
+  <h1>
+    <%= link_to 'MOMIJI',articles_path%>
+  </h1>
+</div>
+
+
+<div class="menu-sp">
+  <div class="top-menu-sp">
+    <%= link_to 'HOME', articles_path%>
+    <span>/</span>
+    <%= link_to 'LOGIN',new_user_session_path%>
+    <span>/</span>
+    <%= link_to 'ABOUT',articles_path%>
+  </div>
+</div>
+
+
+<body>
+<%= yield %>
+</body>
+<footer>
+  <p><span>MOMIJI</span>
+    MOMIJI. All Rights Reserved 複製及び無断転載禁止</p>
+</footer>
+</html>
