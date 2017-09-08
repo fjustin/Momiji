@@ -8,7 +8,7 @@
     </p>
   </div>
   <div class="showcontent">
-    <%= qiita_markdown(@article.content) %>
+    <%= markdown(@article.content).html_safe %>
     </p>
   </div>
 </div>

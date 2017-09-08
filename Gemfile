@@ -49,18 +49,19 @@ gem 'cancan'
 # Use pagination
 gem 'kaminari'
 
-
-# Use qiita-markdown
-gem 'qiita-markdown'
-gem 'github-linguist'
-
 # Add search function
 gem 'ransack'
 
 # smartphone design
 gem 'rack-user_agent'
 
+# heroku
 gem 'rugged'
+
+# markdown
+gem 'redcarpet'
+gem 'coderay'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
