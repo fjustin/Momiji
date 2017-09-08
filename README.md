@@ -4,6 +4,8 @@
 MomojiはRubyのフレームワークRuby on railsで作られています。
 herokuでのデプロイを目指します。<br><br>
 リリース予定日:9/8
+[MOMIJI](https://tranquil-hollows-79901.herokuapp.com/)
+
 <br><br>
 ## 各情報
 - Repository name : Momiji
