@@ -3,7 +3,7 @@
     <p><%= @article.title%><br>
   </div>
   <div class="showcontent_sp">
-    <%= qiita_markdown(@article.content) %>
+    <%= markdown(@article.content).html_safe %>
     </p>
   </div>
 </div>
