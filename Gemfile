@@ -55,9 +55,6 @@ gem 'ransack'
 # smartphone design
 gem 'rack-user_agent'
 
-# heroku
-gem 'rugged'
-
 # markdown
 gem 'redcarpet'
 gem 'coderay'
