@@ -1,0 +1,18 @@
+development:
+  cloud_name: hueymh2gn
+  api_key: '411153137959765'
+  api_secret: 1B6diKX0WunhmKIQRrzdB3ur3mQ
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hueymh2gn
+  api_key: '411153137959765'
+  api_secret: 1B6diKX0WunhmKIQRrzdB3ur3mQ
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hueymh2gn
+  api_key: '411153137959765'
+  api_secret: 1B6diKX0WunhmKIQRrzdB3ur3mQ
+  enhance_image_tag: true
+  static_image_support: false
