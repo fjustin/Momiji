@@ -18,6 +18,7 @@
 
     <%else%>
         <% if i%2==1%>
+            <div id="astyle">
         <div class="second-zone">
             <% if article.image?%>
                 <%= image_tag article.image.url %>
@@ -54,6 +55,7 @@
               <%if user_signed_in?%>
                   <%= link_to '編集',edit_article_path(article.id) %>
               <%end%>
+            </div>
             </div>
             <%end%>
     <%end%>

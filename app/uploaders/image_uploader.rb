@@ -15,7 +15,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   include CarrierWave::RMagick
-  process :resize_to_limit => [100,75]
+  process :resize_to_limit => [700,700]
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
