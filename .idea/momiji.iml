@@ -193,7 +193,6 @@
     <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.3.1, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.0, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rmagick (v2.16.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rugged (v0.26.0, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.5.1, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.6, rbenv: 2.3.0) [gem]" level="application" />
