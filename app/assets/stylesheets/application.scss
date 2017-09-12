@@ -305,18 +305,29 @@ li a:hover{
 
 // 記事内のデザイン
 .showtitle{
-  margin-left:180px;
+  margin-left:360px;
   font-weight:bold;
   color:#000000;
   font-size:36px;
 }
 
+.showtitle p{
+  font-size:32px;
+}
 
 .showcontent{
-  margin-left:190px;
+  margin-left:360px;
   margin-top:10px;
   margin-right:190px;
+  font-size:16px;
+  line-height:1.7;
 }
+
+
+.showcontent p{
+  margin-bottom:1.7em;
+}
+
 
 .showcontent h2{
   font-weight:bold;
@@ -344,9 +355,9 @@ li a:hover{
   font-size:14px;
 }
 
-.cntnt{
+#cntnt{
   height:500px;
-  width:650px;
+  width:1300px;
 }
 
 .link{
@@ -363,7 +374,7 @@ li a:hover{
 #desc p{
   color:#000000;
   font-size:12px;
-  margin-left:190px;
+  margin-left:360px;
 }
 
 
