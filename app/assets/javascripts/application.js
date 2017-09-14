@@ -12,5 +12,21 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.turbolinks
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function() {
+    $("#toggle").click(function () {
+        $("#menu-sp").slideToggle();
+        return false;
+    });
+    $(window).resize(function () {
+        var win = $(window).width();
+        var p = 480;
+        if (win > p) {
+            $("#menu-sp").show();
+        }
+    });
+});

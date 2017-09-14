@@ -6,24 +6,21 @@
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= analytics_init if Rails.env.production? %>
 </head>
 
-<div class="logo-space-sp">
-  <h1>
+
+<div id="menu-box">
+  <div id="toggle">
     <%= link_to 'MOMIJI',articles_path%>
-  </h1>
-</div>
-
-
-<div class="menu-sp">
-  <div class="top-menu-sp">
-    <%= link_to 'HOME', articles_path%>
-    <span>/</span>
-    <%= link_to 'LOGIN',new_user_session_path%>
-    <span>/</span>
-    <%= link_to 'ABOUT',articles_path%>
   </div>
+  <ul id="menu-sp">
+    <li><%= link_to '記事一覧',articles_path%></li>
+    <li><%= link_to 'ログイン',user_session_path%></li>
+    <li><%= link_to 'MOMIJIとは',about_show_path%></li>
+  </ul>
 </div>
+
 
 
 <body>

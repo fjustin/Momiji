@@ -1,3 +1,16 @@
+<%= javascript_include_tag 'assets/bxslider','data-turbolinks-track': 'reload'%>
+
+<div class="container">
+  <div class="slide_all">
+    <div class="slide_wrap">
+      <div class="slide_body">
+        <div class="slide"><%= image_tag 'wa_1.jpg'%></div>
+        <div class="slide"><%= image_tag 'wa_2.jpg'%></div>
+        <div class="slide"><%= image_tag 'wa_3.jpg'%></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <% @articles.each do|article|%>
     <div class="article_sp" style="list-style:none;">
@@ -10,9 +23,10 @@
         <%= link_to article.title, article_path(article.id) %>
       </div>
 
-      <div class="desc-sp">
-        <%= simple_format article.description.truncate(50)%>
+      <div class="date-time">
+        <%= article.created_at.strftime("%Y年%m月%d日")%>
       </div>
+
     </div>
 
     <div class="border_sp">

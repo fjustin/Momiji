@@ -1,13 +1,7 @@
-<div id="cntnt_sp">
-  <div class="showtitle_sp">
-    <p><%= @article.title%><br>
-  </div>
-  <div class="showcontent_sp">
-    <%= markdown(@article.content).html_safe %>
-    </p>
-  </div>
+<div class="showtitle_sp">
+    <p><span><%= @article.created_at.strftime("%Y年%m月%d日")%></span></p>
+    <p><%= @article.title%></p>
 </div>
-
-<div class="link">
-  <%=link_to 'トップ',articles_path%>
+<div class="showcontent_sp">
+    <%= markdown(@article.content).html_safe %>
 </div>
