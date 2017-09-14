@@ -1,3 +1,5 @@
+@import "jquery.bxslider";
+
 // サムネイル画像大きさ指定
 ul li img{
     height: 160px;
@@ -45,6 +47,7 @@ dl.searchbox dd{
 .search-btn:hover {
     opacity:0.8;
 }
+
 
 
 // ロゴのデザイン
@@ -393,7 +396,7 @@ li a:hover{
 }
 
 .title_sp{
-  margin-left:350px;
+  margin-left:400px;
 }
 
 .title_sp a{
@@ -401,6 +404,7 @@ li a:hover{
   text-decoration:none;
   font-family:"メイリオ",Meiryo;
   font-weight:bold;
+  font-size:32px;
 }
 
 
@@ -409,25 +413,103 @@ li a:hover{
 }
 
 
-.menu-sp{
-  margin-left:300px;
-  margin-bottom:30px;
+// スマホ版メニュー
+  #menu-sp{
+    display: none;
+  }
+  #menu-sp li {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+#menu-sp li a{
+  display: block;
+  padding: 12px 0 10px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
 }
 
-.top-menu-sp a{
-  margin-right:30px;
-  font-weight:bold;
-  color:#000000;
-  font-size:20px;
-}
 
-.top-menu-sp a:hover{
-  color:#FE2E2E;
-}
+#toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #FE2E2E;
+  }
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+  }
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #222;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
 
+
+//スライダー
+/* リセット */
+* {margin: 0; padding: 0;}
+body,html {width: 100%;height: 100%;}
+/* 設定 */
+.container {width: 100%; height: 500px; overflow-x: hidden;}
+.slide_all {width: 800px; margin: 0 auto; height: 250px; position: relative;}
+.slide_wrap {width: 2400px; position: absolute; left: 50%; margin-left: -1200px;}
+.slide_body {width: 100%;}
+.slide {width: 800px;}
+.slide img {
+  height:400px;
+  width: 100%;
+  vertical-align: bottom;
+}
+/* 装飾 */
+.bx-controls-direction,.bx-pager {text-align: center;height: 25px;}
+.bx-controls-direction a,.bx-pager-item {display: inline-block;}
+.bx-pager-item a{display: block; height: 10px; width: 10px; text-indent: -9999px; background: #000; border-radius: 10px; margin:10px 2px 0 2px;}
+.bx-pager-item a.active {opacity: 0.3;}
+.bx-controls-direction a{text-decoration: none; color: #000; padding:0 5px;}
+.bx-controls {position: absolute;bottom: 5px;z-index: 100;width: 100%;}
+
+
+
+
+// スマホ版 デザイン
 .border_sp{
   border:dotted 1px #FE2E2E;
-  margin-top:30px;
+  margin-top:100px;
   margin-bottom:50px;
 }
 
@@ -440,25 +522,34 @@ li a:hover{
 }
 
 .article_sp img {
-  height: 140px;
-  width: 270px;
+  height: 200px;
+  width: 370px;
   margin-right:18px;
-  margin-left:40px;
+  float:left;
   position: absolute;
   float:left;
 }
 
+
+.date-time{
+  margin-left:400px;
+  color:#666666;
+}
+
+
+
 /*
 *記事内のデザイン（スマートフォン）
  */
-
-
-
 .showtitle_sp{
   margin-left:20px;
   font-weight:bold;
   color:#000000;
-  font-size:20px;
+  font-size:40px;
+}
+
+.showtitle_sp p span{
+  font-size:10px;
 }
 
 .showcontent_sp{
@@ -469,7 +560,7 @@ li a:hover{
 
 .showcontent_sp h2{
   font-weight:bold;
-  font-size:20px;
+  font-size:36px;
   padding: 10px 10px;
   position: relative;
   padding-bottom: 3px;
@@ -493,10 +584,11 @@ li a:hover{
   font-size:18px;
 }
 
-#cntnt_sp{
-  height:900px;
-  width:auto;
+.showcontent_sp p{
+  font-size:16px;
+  margin-bottom:1.7em;
 }
+
 
 .desc-sp{
   color:#666666;
