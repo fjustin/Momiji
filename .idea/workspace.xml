@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d9506b-cc8b-445b-8aea-72d6155715b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/bxslider.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/article/image/9/heroku.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/bxslider.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/assets/bxslider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html+smartphone.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html+smartphone.erb" />
@@ -785,12 +786,12 @@
       <workItem from="1505053003471" duration="590000" />
       <workItem from="1505132142940" duration="130000" />
       <workItem from="1505231928109" duration="2681000" />
-      <workItem from="1505313917574" duration="15337000" />
+      <workItem from="1505313917574" duration="15398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64094000" />
+    <option name="totallyTimeSpent" value="64155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
