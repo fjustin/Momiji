@@ -1,3 +1,18 @@
+<%= javascript_include_tag 'assets/bxslider','data-turbolinks-track': 'reload'%>
+
+<div class="container_pc">
+  <div class="slide_all">
+    <div class="slide_wrap">
+      <div class="slide_body">
+        <div class="slide"><%= image_tag 'wa_1.jpg'%></div>
+        <div class="slide"><%= image_tag 'wa_2.jpg'%></div>
+        <div class="slide"><%= image_tag 'wa_3.jpg'%></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <% @search_articles.each_with_index do|article,i|%>
     <% if i==0 %>
         <div class="article" style="list-style:none;">
