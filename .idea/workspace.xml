@@ -2,7 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d9506b-cc8b-445b-8aea-72d6155715b9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/autocomplete-9c9d5455176e8d3ca2f40b2facc227e694f1f0eec8b983f170071e717065a607.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/autocomplete-9c9d5455176e8d3ca2f40b2facc227e694f1f0eec8b983f170071e717065a607.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/button-021c43a621b5a50b65f9b91baee0fa71a0289389d4272df3e570dd4a15e4725e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/button-021c43a621b5a50b65f9b91baee0fa71a0289389d4272df3e570dd4a15e4725e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/core-e0c075b5b78f126ea66b29f674dff8e37662bf5cfff9dc9d7736b1c2ed8237fe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/core-e0c075b5b78f126ea66b29f674dff8e37662bf5cfff9dc9d7736b1c2ed8237fe.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-af-a6a961df965fd201428d809fa46cdea4544b351b0eecf30b7f845a1679988531.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-af-a6a961df965fd201428d809fa46cdea4544b351b0eecf30b7f845a1679988531.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ar-57ec788d6715b0c3eb5c4c58ec0ee7875571040571e3e0348a565c71669ef94d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ar-57ec788d6715b0c3eb5c4c58ec0ee7875571040571e3e0348a565c71669ef94d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ar-DZ-ebe3cb15602e682b3b23f0a099a2d5ad57046edf58b75e68bfa5514495b96d99.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ar-DZ-ebe3cb15602e682b3b23f0a099a2d5ad57046edf58b75e68bfa5514495b96d99.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-az-a50730fb1b05aa7c77ae002fe22ec81c1750c4df06927cf29e6bcba92b65c6d5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-az-a50730fb1b05aa7c77ae002fe22ec81c1750c4df06927cf29e6bcba92b65c6d5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-be-06eae0e2ca7409899b85c594dfec4577fa8e03abecc3c180e0b6f6f9294c9d0a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-be-06eae0e2ca7409899b85c594dfec4577fa8e03abecc3c180e0b6f6f9294c9d0a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-bg-f73f13a1c67ee963af183d9bc54852d01fcb061097d0baca5aee7e03739ca6a9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-bg-f73f13a1c67ee963af183d9bc54852d01fcb061097d0baca5aee7e03739ca6a9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-bs-686922e78c7895da760793088479dda411c248a349a24a3f4bb56aa1be953e56.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-bs-686922e78c7895da760793088479dda411c248a349a24a3f4bb56aa1be953e56.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-c302a45c52fce8ab3625b820718efa75ec0ec9f35ab120a0f6a2a77664465d0e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-c302a45c52fce8ab3625b820718efa75ec0ec9f35ab120a0f6a2a77664465d0e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ca-ef0d03c312380e37ca2c07eb28e7f075c630297f60c2f147a3560c27f490ca83.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ca-ef0d03c312380e37ca2c07eb28e7f075c630297f60c2f147a3560c27f490ca83.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-cs-0fb2fbf80a532b57eb1962afdb7cacc19c37d8efb523aec86a07caec8d1ce1bb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-cs-0fb2fbf80a532b57eb1962afdb7cacc19c37d8efb523aec86a07caec8d1ce1bb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-cy-GB-2f686738eaf06a64a95421b1dbdcfd439db63bb95d4cf2f3db377f1861a080ef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-cy-GB-2f686738eaf06a64a95421b1dbdcfd439db63bb95d4cf2f3db377f1861a080ef.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-da-6772c305287799c1a67031411f1b9cb0c8903e8d9ed077a43ddaba4baaf8131e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-da-6772c305287799c1a67031411f1b9cb0c8903e8d9ed077a43ddaba4baaf8131e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-de-27ad18fbb615f0e24a776e77888b26b476c24c5a0d9ea413e6f6cc00cfb14003.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-de-27ad18fbb615f0e24a776e77888b26b476c24c5a0d9ea413e6f6cc00cfb14003.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-el-5acb748793d3a42072586137a6bea164b6343956db193c163d2a90b3586da875.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-el-5acb748793d3a42072586137a6bea164b6343956db193c163d2a90b3586da875.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-AU-87d45f271fd812445e47dd2a6fb548de7af857a6a7231d3b7291a0603e57834f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-AU-87d45f271fd812445e47dd2a6fb548de7af857a6a7231d3b7291a0603e57834f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-GB-efc76e86ead1d70aa6a37fddb5b0a0cfe8e147d5c2058c6fbaa749ea402eef0f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-GB-efc76e86ead1d70aa6a37fddb5b0a0cfe8e147d5c2058c6fbaa749ea402eef0f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-NZ-72ba07757d6507f77b21e2aa5a54f932c124f9bc00f577e4b6b44c64d05aab2f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-en-NZ-72ba07757d6507f77b21e2aa5a54f932c124f9bc00f577e4b6b44c64d05aab2f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-eo-d526eb589060dfa88495795a45928dcade18578dc7e3408c4ca76d417fcfbc2d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-eo-d526eb589060dfa88495795a45928dcade18578dc7e3408c4ca76d417fcfbc2d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-es-cd607b583ae4c4a1fe814f0d133954a7d982745f0fff4f64214b50ff608fb429.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-es-cd607b583ae4c4a1fe814f0d133954a7d982745f0fff4f64214b50ff608fb429.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-et-0db8417227aee1e144cfbee82e135fd75d62392fbae6a0988e546187c1a929f6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-et-0db8417227aee1e144cfbee82e135fd75d62392fbae6a0988e546187c1a929f6.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-eu-ac904dfe9512b12ebbdc2719a4cde495795e9ec966865e374578867e602dc649.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-eu-ac904dfe9512b12ebbdc2719a4cde495795e9ec966865e374578867e602dc649.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fa-56bc1f17eb0f34905cc0a95cf4424b5c6d33ca5db2cd557847e68a235755460b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fa-56bc1f17eb0f34905cc0a95cf4424b5c6d33ca5db2cd557847e68a235755460b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fi-97313628149db0ed661ee87dbd71c6575811fda6f96add3c8e9ffc069e969062.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fi-97313628149db0ed661ee87dbd71c6575811fda6f96add3c8e9ffc069e969062.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fo-96b6d32c9271ebb1ed619fa7023585d19d2d9dc08a8e7f411cfc7f355855fa96.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fo-96b6d32c9271ebb1ed619fa7023585d19d2d9dc08a8e7f411cfc7f355855fa96.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-1b9940fbd8adb5e4890a531ee570813209c0b0273ef985928978ab1d5b686d71.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-1b9940fbd8adb5e4890a531ee570813209c0b0273ef985928978ab1d5b686d71.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-CA-c48390c96e1363afc9cf84f0b1ad348f9bbcb024c285cd1b2bc20747121e5781.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-CA-c48390c96e1363afc9cf84f0b1ad348f9bbcb024c285cd1b2bc20747121e5781.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-CH-5a2c08b2ad2e27ad60f700be3b63d5b08ce631913b56c867b53509c0cbae9e90.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-fr-CH-5a2c08b2ad2e27ad60f700be3b63d5b08ce631913b56c867b53509c0cbae9e90.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-gl-63b76e9ba84f9959291eb61b0102d7f7e62604d6c90d5c0b5e973dc7f6067f5f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-gl-63b76e9ba84f9959291eb61b0102d7f7e62604d6c90d5c0b5e973dc7f6067f5f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-he-11c80c7affb152585105d2502536d9e38574f18d1e2245bebdd9dbe70acbdf50.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-he-11c80c7affb152585105d2502536d9e38574f18d1e2245bebdd9dbe70acbdf50.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hi-97094c613520178741069ec559ce927826a6786580337211e6c891c10aac3450.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hi-97094c613520178741069ec559ce927826a6786580337211e6c891c10aac3450.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hr-7fa5aa4e52e4954f87acbf48076839685753432bbfbd7c2bd6ce8afaf3366172.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hr-7fa5aa4e52e4954f87acbf48076839685753432bbfbd7c2bd6ce8afaf3366172.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hu-6ed87f3bf2cd52df0d10f187ad8c57a4d362b71ba2cd9c962d76c512fe426a02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hu-6ed87f3bf2cd52df0d10f187ad8c57a4d362b71ba2cd9c962d76c512fe426a02.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hy-e4fcbe0b3430e1d12f24a4fe1982b64eab3b1f18c2e46db92fcd37d4b0b97e03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-hy-e4fcbe0b3430e1d12f24a4fe1982b64eab3b1f18c2e46db92fcd37d4b0b97e03.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-id-6f461eaf3ab0d7ee1bec51359e475a0192d77ceb6f4280aa30881e9a22112b15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-id-6f461eaf3ab0d7ee1bec51359e475a0192d77ceb6f4280aa30881e9a22112b15.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-is-4ba5a1a63b3c4b3fda1afb31b022a33725e377c400a1b31669f1742a10a662cf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-is-4ba5a1a63b3c4b3fda1afb31b022a33725e377c400a1b31669f1742a10a662cf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-it-CH-bd5deddb706b541a7cd95d39a96dece0e8208f38112aa3e535fa6057c67386da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-it-CH-bd5deddb706b541a7cd95d39a96dece0e8208f38112aa3e535fa6057c67386da.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-it-dcead097b2a8dd5700a36666d62c60a288b406bf4ecf94f20a931bbf7b94f9b8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-it-dcead097b2a8dd5700a36666d62c60a288b406bf4ecf94f20a931bbf7b94f9b8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ja-b331764760876219ca2bcc09d40de044a0b45753980853d566da98f9cfc3c6d0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ja-b331764760876219ca2bcc09d40de044a0b45753980853d566da98f9cfc3c6d0.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ka-32f3dd19b4a06454bc7abf3bd2cfc9ce49681bc7b283731064512606da762147.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ka-32f3dd19b4a06454bc7abf3bd2cfc9ce49681bc7b283731064512606da762147.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-kk-cbb90f08d442ea581d0ec2c4edcbcc37d093671495ba95577acc30ad877dae69.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-kk-cbb90f08d442ea581d0ec2c4edcbcc37d093671495ba95577acc30ad877dae69.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-km-173ffecc593bcbace443b5e9b2c8af262d8b300f882945f0b291c47c458ff66e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-km-173ffecc593bcbace443b5e9b2c8af262d8b300f882945f0b291c47c458ff66e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ko-a6d8a44de191ac1fc9d71b962ce54c086453d8c9f9d00598c1b5cede3d855c98.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ko-a6d8a44de191ac1fc9d71b962ce54c086453d8c9f9d00598c1b5cede3d855c98.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ky-716b05152e8447601ae040c3e5c1695e25f539ae9a34cb281f8d58725c8f6a96.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ky-716b05152e8447601ae040c3e5c1695e25f539ae9a34cb281f8d58725c8f6a96.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lb-2fa9b5e0994360a669b265ba8696e42129e9f1e9a350b7de4e1bf3e42bf09b80.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lb-2fa9b5e0994360a669b265ba8696e42129e9f1e9a350b7de4e1bf3e42bf09b80.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lt-e4b384964a903088173b96dbf7c6614cfc86df665acf9c75be70c63c24e00d10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lt-e4b384964a903088173b96dbf7c6614cfc86df665acf9c75be70c63c24e00d10.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lv-00bccd8910d9a7adfe9cc798ef243bd48b8a7f13e164c9935eb19c05613cf229.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-lv-00bccd8910d9a7adfe9cc798ef243bd48b8a7f13e164c9935eb19c05613cf229.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-mk-6f29f4f8e4b3b2b2ddda5dea735f1c91a6c63ba2588f89620ccb42f44386a598.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-mk-6f29f4f8e4b3b2b2ddda5dea735f1c91a6c63ba2588f89620ccb42f44386a598.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ml-e2421feaea06dcbfcbcf74041e00d7821cff72ff4a38c095a0e7ea5c468264bf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ml-e2421feaea06dcbfcbcf74041e00d7821cff72ff4a38c095a0e7ea5c468264bf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ms-546becff82a955626b55e3fe952aed639e68c16284f387090f21e46f590cba1a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ms-546becff82a955626b55e3fe952aed639e68c16284f387090f21e46f590cba1a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nb-0084d12260251a8e1778706426f36370eea141902fd6aa7b1ae8dc430dc4b51e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nb-0084d12260251a8e1778706426f36370eea141902fd6aa7b1ae8dc430dc4b51e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nl-BE-4d4ab1f6417ed4f00a28337f16557ef4cac31817f99cfe915d5504b3e8abcb0e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nl-BE-4d4ab1f6417ed4f00a28337f16557ef4cac31817f99cfe915d5504b3e8abcb0e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nl-c39af493ac94b76d2f462ca654d7e21f4c9cf682ed407410f0daf07524389b56.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nl-c39af493ac94b76d2f462ca654d7e21f4c9cf682ed407410f0daf07524389b56.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nn-369cd304c1b53d1d5bd2d9530a95d416244e3f5819221a6224d3562aeb3f6d3c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-nn-369cd304c1b53d1d5bd2d9530a95d416244e3f5819221a6224d3562aeb3f6d3c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-no-9d29046a0f3917ef01febb6759e0aa0a4298e7eb7da217fff709958ebf8db9c6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-no-9d29046a0f3917ef01febb6759e0aa0a4298e7eb7da217fff709958ebf8db9c6.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pl-5eafd3f5d35400f076af1ef159cb90b97bca6514416d59976bfdb47352f1af1d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pl-5eafd3f5d35400f076af1ef159cb90b97bca6514416d59976bfdb47352f1af1d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pt-312d32af5ce1a21b7512176a6f433ce652e46ee116482542891748f4f389eb16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pt-312d32af5ce1a21b7512176a6f433ce652e46ee116482542891748f4f389eb16.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pt-BR-a3d4f46ce6c1727673b0e6b8f7745785fd9e3e6e1a7bd44b59bf5c1905653880.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-pt-BR-a3d4f46ce6c1727673b0e6b8f7745785fd9e3e6e1a7bd44b59bf5c1905653880.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-rm-17dd7a0f3a379eb19eeebd85acc6abe101ccd6c6cb8a20ea970c5d0f101283dc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-rm-17dd7a0f3a379eb19eeebd85acc6abe101ccd6c6cb8a20ea970c5d0f101283dc.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ro-309cd028c58a6dfe9a6acebe10f9c0b6ca1ddfa4227f065f0bb913edf39ca859.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ro-309cd028c58a6dfe9a6acebe10f9c0b6ca1ddfa4227f065f0bb913edf39ca859.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ru-d59e9bc6a29b3dfe647f1365617ed95ada981a4ca267a946defc3b2b4c6f0ab3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ru-d59e9bc6a29b3dfe647f1365617ed95ada981a4ca267a946defc3b2b4c6f0ab3.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sk-ebc329de13c01093328ccfc6c5364ff456e8cb57872c6aff575567f7cd1cca76.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sk-ebc329de13c01093328ccfc6c5364ff456e8cb57872c6aff575567f7cd1cca76.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sl-d77e4096c18cc6420177e488f4f0c1c8f3f91f8b6f94da7d9531f4a9a1ee4f4e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sl-d77e4096c18cc6420177e488f4f0c1c8f3f91f8b6f94da7d9531f4a9a1ee4f4e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sq-f9a8ce51cd0ad7a02bf393337161e1fadd746a4f297e362adf82fcad5dfa982e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sq-f9a8ce51cd0ad7a02bf393337161e1fadd746a4f297e362adf82fcad5dfa982e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sr-SR-95687cf291fbd1098ad3c064c88c4a0854ba9634943552724e7eb5cda1b5e555.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sr-SR-95687cf291fbd1098ad3c064c88c4a0854ba9634943552724e7eb5cda1b5e555.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sr-a150ade9beab73eafca85c1641994e01a53b122f96d2780ae56961ba8431cf75.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sr-a150ade9beab73eafca85c1641994e01a53b122f96d2780ae56961ba8431cf75.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sv-80ccfb991233c668e503179e1d578a747df8eccea8b838cebe6dd7434951e5e5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-sv-80ccfb991233c668e503179e1d578a747df8eccea8b838cebe6dd7434951e5e5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ta-2de5c4ed58a038c39d56c46b7f85210b9380c0a779c3fd568b282405445efb8c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-ta-2de5c4ed58a038c39d56c46b7f85210b9380c0a779c3fd568b282405445efb8c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-th-e34c76aa54771f79d9b61ad548e4c7bc5345389d1357afcf4ecc2a5f784d5ce2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-th-e34c76aa54771f79d9b61ad548e4c7bc5345389d1357afcf4ecc2a5f784d5ce2.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-tj-932515db43c69040a05ea87d0ad716790d30981c6b1e4027dbf8a1faaa0080af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-tj-932515db43c69040a05ea87d0ad716790d30981c6b1e4027dbf8a1faaa0080af.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-tr-49f81316de71a7fc45e6e632acc85309c6f53cfffff8f73bc59d6e357089b410.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-tr-49f81316de71a7fc45e6e632acc85309c6f53cfffff8f73bc59d6e357089b410.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-uk-93c12a197686f816469d11788182431471f6457d987328385c869113b18d66de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-uk-93c12a197686f816469d11788182431471f6457d987328385c869113b18d66de.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-vi-7b2156c1034a3c802584ab8b44f09c3fbb066d31070ad3d9e455796df27e5976.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-vi-7b2156c1034a3c802584ab8b44f09c3fbb066d31070ad3d9e455796df27e5976.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-CN-db65b45e3da61b15fc7c252e00ca17d3af09ca7b3eaff9f2fcf903ae7d69ab1e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-CN-db65b45e3da61b15fc7c252e00ca17d3af09ca7b3eaff9f2fcf903ae7d69ab1e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-HK-b7fc98c3343afa76bdd6c9c5508605a13477f43fc8afbc108be246670b093e3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-HK-b7fc98c3343afa76bdd6c9c5508605a13477f43fc8afbc108be246670b093e3d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-TW-6b933a60b6dd2ec1e1150e402bbe3fd74add45f9f3f78b006d7b1f4b6e0a9580.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/datepicker-zh-TW-6b933a60b6dd2ec1e1150e402bbe3fd74add45f9f3f78b006d7b1f4b6e0a9580.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/dialog-c2ca5e75ef6426f4cfd4ab11965af749f484ee21337dfe48c57eb663b69f4753.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/dialog-c2ca5e75ef6426f4cfd4ab11965af749f484ee21337dfe48c57eb663b69f4753.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/draggable-0ac9f739e77ad117386bfff03e408ed942be8d5e8f5ae35d866777480e2c2177.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/draggable-0ac9f739e77ad117386bfff03e408ed942be8d5e8f5ae35d866777480e2c2177.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/droppable-2e8b2ef196fa24ccdbf74b586e06cc7e57d76cbb984a38012843b859fde3d344.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/droppable-2e8b2ef196fa24ccdbf74b586e06cc7e57d76cbb984a38012843b859fde3d344.js.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -18,31 +181,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="75">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html+pc.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -61,8 +204,8 @@
       <file leaf-file-name="sp_layout.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/sp_layout.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="77" />
+            <state relative-caret-position="134">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -81,28 +224,18 @@
       <file leaf-file-name="image_uploader.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bxslider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/assets/bxslider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html+smartphone.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+smartphone.erb">
+      <file leaf-file-name="show.html+smartphone.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html+smartphone.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -146,18 +279,18 @@
         <option value="$PROJECT_DIR$/app/views/articles/show.html+pc.erb" />
         <option value="$PROJECT_DIR$/config/cloudinary.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/sp_layout.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html+smartphone.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bxslider.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/assets/bxslider.js" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html+smartphone.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html+pc.erb" />
-        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/sp_layout.html.erb" />
+        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
       </list>
     </option>
   </component>
@@ -187,7 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -377,7 +510,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -710,12 +843,15 @@
       <workItem from="1505231928109" duration="2681000" />
       <workItem from="1505313917574" duration="16358000" />
       <workItem from="1505634948320" duration="112000" />
-      <workItem from="1505659844611" duration="1686000" />
+      <workItem from="1505659844611" duration="1961000" />
+      <workItem from="1505734497442" duration="253000" />
+      <workItem from="1505747275363" duration="96000" />
+      <workItem from="1505923636307" duration="133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66913000" />
+    <option name="totallyTimeSpent" value="67670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1006,14 +1142,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bxslider.js" />
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/sp_layout.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1026,14 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html+smartphone.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,16 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1073,30 +1185,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="183" column="9" lean-forward="false" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+smartphone.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/sp_layout.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html+smartphone.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
