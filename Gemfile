@@ -35,6 +35,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# tag
+gem 'acts-as-taggable-on'
+
 # Use the image
 gem 'carrierwave'
 gem 'rmagick'

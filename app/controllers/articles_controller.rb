@@ -3,7 +3,12 @@ class ArticlesController < ApplicationController
   before_action :authenticate_user!, :except => [:index,:show]
 
   def index
-    @articles = Article.all.page(params[:page])
+    if params[:tag]
+      @search_articles = Article.tagged_with(params[:tag])
+    else
+      @search_articles = Article.all
+    end
+    @search_articles = @search_articles.order(created_at: :desc).page(params[:page])
   end
 
   def show
@@ -36,7 +41,7 @@ class ArticlesController < ApplicationController
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description)
+    params[:article].permit(:title,:content,:image,:description,:tag_list)
   end
 
   def set_post
