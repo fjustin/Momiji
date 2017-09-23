@@ -179,10 +179,25 @@ span{
   }
 }
 
+// 共通
+.tag{
+  margin-top:30px;
+  color: rgb(212, 197, 192);
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.tag span a{
+  color: rgb(212, 197, 192);
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 // 記事一覧
 .second-zone{
   margin-left:300px;
-  float:left;
   margin-top:64px;
   font-size:24px;
   height:400px;
@@ -190,7 +205,6 @@ span{
   background-color:white;
   padding-left:50px;
   padding-top:30px;
-  margin-bottom:30px;
 }
 
 
@@ -235,7 +249,6 @@ span{
   background-color:white;
   padding-left:50px;
   padding-top:30px;
-  margin-bottom:30px;
   margin-top:64px;
 }
 

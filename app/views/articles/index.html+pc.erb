@@ -31,13 +31,18 @@
           <div class="date-index">
             <%= article.created_at.strftime("%Y/%m/%d")%>
           </div>
+            <div class="tag">
+              <span>
+              <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
+              </span>
+            </div>
           <%if user_signed_in?%>
               <%= link_to '編集',edit_article_path(article.id) %>
           <%end%>
         </div>
 
 
-          <%else%>
+          <%elsif i%2==0%>
 
 
             <div class ="third-zone">
@@ -55,6 +60,11 @@
               <div class="date-index">
                 <%= article.created_at.strftime("%Y/%m/%d")%>
               </div>
+              <div class="tag">
+              <span>
+              <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
+              </span>
+              </div>
               <%if user_signed_in?%>
                   <%= link_to '編集',edit_article_path(article.id) %>
               <%end%>
@@ -64,5 +74,5 @@
     <%end%>
 
 <div class="paginate">
-  <%= paginate @articles%>
+  <%= paginate @search_articles%>
 </div>
