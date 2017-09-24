@@ -26,7 +26,7 @@
             <%= link_to article.title, article_path(article.id) %>
           </p>
           <div class="description-zone">
-            <%= simple_format article.description.truncate(100)%>
+            <%= simple_format article.description.truncate(70)%>
           </div>
           <div class="date-index">
             <%= article.created_at.strftime("%Y/%m/%d")%>
@@ -55,7 +55,7 @@
                 <%= link_to article.title, article_path(article.id) %>
               </p>
               <div class="description-zone">
-                <%= simple_format article.description.truncate(100)%>
+                <%= simple_format article.description.truncate(70)%>
               </div>
               <div class="date-index">
                 <%= article.created_at.strftime("%Y/%m/%d")%>
