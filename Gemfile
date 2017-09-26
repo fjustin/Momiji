@@ -70,6 +70,8 @@ gem 'cloudinary'
 # google analytics
 gem 'google-analytics-rails'
 
+# meta-tag setting
+gem 'meta-tags'
 
 # jquery-turbolinks
 gem 'jquery-turbolinks'

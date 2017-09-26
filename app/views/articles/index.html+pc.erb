@@ -1,3 +1,15 @@
+<% assign_meta_tags title: '記事一覧',
+                    description: '美味しい和菓子が見つかるメディア',
+                    keywords: '和菓子' %>
+
+<div class="logo-space">
+  <h1>
+    <%= link_to 'MOMIJI',articles_path%>
+  </h1>
+</div>
+
+<p class="concept">美味しい和菓子が見つかるメディア</p>
+
 <%= javascript_include_tag 'assets/bxslider','data-turbolinks-track': 'reload'%>
 
 <div class="container_pc">
@@ -26,7 +38,7 @@
             <%= link_to article.title, article_path(article.id) %>
           </p>
           <div class="description-zone">
-            <%= simple_format article.description.truncate(100)%>
+            <%= simple_format article.description.truncate(70)%>
           </div>
           <div class="date-index">
             <%= article.created_at.strftime("%Y/%m/%d")%>
@@ -55,7 +67,7 @@
                 <%= link_to article.title, article_path(article.id) %>
               </p>
               <div class="description-zone">
-                <%= simple_format article.description.truncate(100)%>
+                <%= simple_format article.description.truncate(70)%>
               </div>
               <div class="date-index">
                 <%= article.created_at.strftime("%Y/%m/%d")%>
