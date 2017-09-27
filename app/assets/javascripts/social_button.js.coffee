@@ -26,6 +26,7 @@ $(document).on('page:load', ready)
 twttr_events_bound = false
 
 bindTwitterEventHandlers = ->
+  $(document).ready(ready)
   $(document).on 'page:load', renderTweetButtons
   twttr_events_bound = true
 

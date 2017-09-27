@@ -1,3 +1,15 @@
+<% assign_meta_tags title: '記事一覧',
+                    description: '美味しい和菓子が見つかるメディア',
+                    keywords: '和菓子' %>
+
+<div class="logo-space-who">
+  <h1>
+    <%= link_to 'MOMIJI',articles_path%>
+  </h1>
+</div>
+
+<p class="concept-who">美味しい和菓子が見つかるメディア</p>
+
 <%= javascript_include_tag 'assets/bxslider','data-turbolinks-track': 'reload'%>
 
 <div class="container">
@@ -12,7 +24,7 @@
   </div>
 </div>
 
-<% @articles.each do|article|%>
+<% @search_articles.each do|article|%>
     <div class="article_sp" style="list-style:none;">
       <% if article.image?%>
           <%= image_tag article.image.url %>
@@ -27,13 +39,19 @@
         <%= article.created_at.strftime("%Y年%m月%d日")%>
       </div>
 
+      <div class="tag-sumaho">
+              <span>
+              <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
+              </span>
+      </div>
+
     </div>
 
     <div class="border_sp">
     </div>
 
     <div class="paginate">
-      <%= paginate @articles%>
+      <%= paginate @search_articles%>
     </div>
 
 <%end%>
