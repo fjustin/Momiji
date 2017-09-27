@@ -88,6 +88,51 @@ h1 a:hover{
   margin-top:110px;
 }
 
+.logo-show{
+  margin-left:630px;
+  margin-bottom:50px;
+}
+
+.logo-show a{
+  text-decoration:none;
+  color:#000000;
+  font-size:36px;
+  font-weight:bold;
+}
+
+.logo-show a:link{
+  text-decoration-color: white;
+  color:#000000;
+}
+
+.logo-show a:visited{
+  text-decoration:none;
+  color:#000000;
+}
+
+.logo-show a:hover{
+  color:#FE2E2E;
+}
+
+// スマホのロゴ
+.logo-space-who{
+  margin-left:400px;
+  margin-top:50px;
+  position:absolute;
+  z-index:2;
+}
+
+.concept-who{
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  position:absolute;
+  z-index:2;
+  margin-left:350px;
+  margin-top:120px;
+}
+
+
 // メニューのデザイン
 
 .menu{
@@ -210,6 +255,25 @@ span{
   font-size: 11px;
   font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
+
+
+.tag-sumaho{
+  margin-top:80px;
+  float:right;
+  color: rgb(212, 197, 192);
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.tag-sumaho span a{
+  color: #fe696c;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-decoration:none;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 
 // 記事一覧
 .second-zone{
@@ -568,6 +632,8 @@ body,html {width: 100%;height: 100%;}
 .showcontent_sp p{
   font-size:20px;
   margin-bottom:1.7em;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+
 }
 
 
@@ -609,6 +675,7 @@ body,html {width: 100%;height: 100%;}
   color:#666666;
   font-size:12px;
   margin-left:350px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
 }
 
 
@@ -623,6 +690,26 @@ body,html {width: 100%;height: 100%;}
   width:850px;
   margin-left:300px;
 }
+
+.about-title-who{
+  vertical-align: center;
+  text-align: center;
+  margin-bottom:50px;
+}
+
+#about-momiji-who{
+  height:500px;
+  width:600px;
+margin-left:220px;
+}
+
+#about-momiji-who p{
+  size:20px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+
+}
+
+
 
 
 // 記事執筆ページのCSS
@@ -651,11 +738,12 @@ body{
 // フッター
 footer{
   height:117px;
+  bottom:0px;
+  margin-top:300px;
   width:auto;
   background-color:#000000;
   color:white;
   font-size:9px;
-  margin-top:1500px;
   padding-top:70px;
   padding-left:125px;
 }
@@ -687,9 +775,6 @@ footer span{
     overflow: hidden;
     margin-right: 5px;
     margin-bottom: 4px;
-    &.facebook {
-      margin-right: 17px;
-    }
     &.twitter {
       width: 90px;
     }
