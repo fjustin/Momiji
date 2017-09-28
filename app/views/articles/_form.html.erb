@@ -36,6 +36,7 @@
     </p>
   </div>
     <p>
+      <%= f.select :status, Article.statuses.keys.to_a, method: :patch %>
       <%= f.submit%>
     </p>
 

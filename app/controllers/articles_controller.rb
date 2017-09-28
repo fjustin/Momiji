@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_post, only: [:show,:edit,:update]
+  before_action :set_article, only: [:show,:edit,:update,:status]
   before_action :authenticate_user!, :except => [:index,:show]
 
   def index
@@ -8,7 +8,8 @@ class ArticlesController < ApplicationController
     else
       @search_articles = Article.all
     end
-    @search_articles = @search_articles.order(created_at: :desc).page(params[:page])
+    @search_articles = @search_articles.published.order(created_at: :desc).page(params[:page])
+
   end
 
   def show
@@ -39,13 +40,14 @@ class ArticlesController < ApplicationController
     end
   end
 
+
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description,:tag_list)
+    params[:article].permit(:title,:content,:image,:description,:tag_list,:status)
   end
 
-  def set_post
-    @article = Article.find(params[:id])
+  def set_article
+    @article = Article.find(params[:id] || params[:article_id])
   end
 
 
