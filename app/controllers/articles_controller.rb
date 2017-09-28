@@ -8,7 +8,8 @@ class ArticlesController < ApplicationController
     else
       @search_articles = Article.all
     end
-    @search_articles = @search_articles.order(created_at: :desc).page(params[:page])
+    @search_articles = @search_articles.published.order(created_at: :desc).page(params[:page])
+
   end
 
   def show
