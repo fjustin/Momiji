@@ -42,12 +42,12 @@ class ArticlesController < ApplicationController
 
   def toggle_status
     @article.toggle_status!
-    redirect_to 'edit', notice: 'Article was successfully updated.'
+    redirect_to articles_url, notice: 'Article was successfully updated.'
   end
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description,:tag_list)
+    params[:article].permit(:title,:content,:image,:description,:tag_list,:status)
   end
 
   def set_article
