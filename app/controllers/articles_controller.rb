@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_post, only: [:show,:edit,:update]
+  before_action :set_article, only: [:show,:edit,:update,:toggle_status]
   before_action :authenticate_user!, :except => [:index,:show]
 
   def index
@@ -39,13 +39,19 @@ class ArticlesController < ApplicationController
     end
   end
 
+
+  def toggle_status
+    @article.toggle_status!
+    redirect_to 'edit', notice: 'Article was successfully updated.'
+  end
+
   private
   def article_params
     params[:article].permit(:title,:content,:image,:description,:tag_list)
   end
 
-  def set_post
-    @article = Article.find(params[:id])
+  def set_article
+    @article = Article.find(params[:id] || params[:article_id])
   end
 
 
