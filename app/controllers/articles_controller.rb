@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:show,:edit,:update,:toggle_status]
+  before_action :set_article, only: [:show,:edit,:update,:status]
   before_action :authenticate_user!, :except => [:index,:show]
 
   def index
@@ -39,11 +39,6 @@ class ArticlesController < ApplicationController
     end
   end
 
-
-  def toggle_status
-    @article.toggle_status!
-    redirect_to articles_url, notice: 'Article was successfully updated.'
-  end
 
   private
   def article_params

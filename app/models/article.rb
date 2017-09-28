@@ -3,13 +3,6 @@ class Article < ApplicationRecord
   validates :title,:content,:status, presence: true
   validates :status,inclusion: {in: Article.statuses.keys}
 
-  def toggle_status!
-    if draft?
-      published!
-    else
-      draft!
-    end
-  end
 
 
 

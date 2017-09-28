@@ -36,7 +36,7 @@
     </p>
   </div>
     <p>
-      <%= link_to @article.status, article_toggle_status_path(@article), method: :patch %>
+      <%= f.select :status, Article.statuses.keys.to_a, method: :patch %>
       <%= f.submit%>
     </p>
 
