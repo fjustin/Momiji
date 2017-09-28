@@ -38,14 +38,19 @@
   </dl>
 
 
-  <div class="menu">
-    <div class="top-menu">
-      <%= link_to 'HOME', articles_path%>
-      <span>/</span>
-      <%= link_to 'LOGIN',new_user_session_path%>
-      <span>/</span>
-      <%= link_to 'ABOUT',about_show_path %>
-    </div>
+  <div id="menu">
+    <% if user_signed_in?%>
+      <div class="top-menu">
+        <%= link_to '無料登録',new_user_registration_path%>
+        <%= link_to 'ログインする',new_user_session_path%>
+      </div>
+    <%else%>
+      <div class="top-menu-signed-in">
+        <%= link_to '投稿する',new_article_path %>
+        <%= link_to 'お気に入り',about_show_path %>
+        <%= link_to 'ログアウト',destroy_user_session_path %>
+      </div>
+    <%end%>
   </div>
 
 
@@ -55,14 +60,6 @@
   </body>
 
   <footer>
-    <div class="auth">
-      <% if user_signed_in?%>
-          <%= link_to '記事を投稿する',new_article_path %>
-          <%= link_to 'ログアウト',destroy_user_session_path,method: :delete%>
-      <%else%>
-          <%= link_to '管理者としてログイン',new_user_session_path,{:class => 'log'} %>
-      <%end%>
-    </div>
     <p><span>MOMIJI</span>
       MOMIJI. All Rights Reserved 複製及び無断転載禁止</p>
   </footer>
