@@ -40,16 +40,16 @@
 
   <div id="menu">
     <% if user_signed_in?%>
-      <div class="top-menu">
-        <%= link_to '無料登録',new_user_registration_path%>
-        <%= link_to 'ログインする',new_user_session_path%>
-      </div>
+        <div class="top-menu-signed-in">
+          <%= link_to '投稿する',new_article_path %>
+          <%= link_to 'お気に入り',about_show_path %>
+          <%= link_to 'ログアウト',destroy_user_session_path,method: :delete %>
+        </div>
     <%else%>
-      <div class="top-menu-signed-in">
-        <%= link_to '投稿する',new_article_path %>
-        <%= link_to 'お気に入り',about_show_path %>
-        <%= link_to 'ログアウト',destroy_user_session_path %>
-      </div>
+        <div class="top-menu">
+          <%= link_to '無料登録',new_user_registration_path%>
+          <%= link_to 'ログインする',new_user_session_path%>
+        </div>
     <%end%>
   </div>
 
