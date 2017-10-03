@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show,:edit,:update,:status]
   before_action :authenticate_user!, :except => [:index,:show]
+  before_action :correct_user, only: [:edit,:update]
 
   def index
     if params[:tag]
@@ -9,7 +10,7 @@ class ArticlesController < ApplicationController
       @search_articles = Article.all
     end
     @search_articles = @search_articles.published.order(created_at: :desc).page(params[:page])
-
+    @likes = Like.where(article_id: params[:id])
   end
 
   def show
@@ -21,6 +22,7 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
+    @article.user_id = curret_user.id
     if @article.save
       redirect_to articles_path
     else
@@ -43,11 +45,18 @@ class ArticlesController < ApplicationController
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description,:tag_list,:status)
+    params[:article].permit(:title,:content,:image,:description,:tag_list,:status,:user_id,:likes)
   end
 
   def set_article
     @article = Article.find(params[:id] || params[:article_id])
+  end
+
+  def correct_user
+    article = Article.find(params[:id])
+    if current_user.id != article.user.id
+      redirect_to articles_path
+    end
   end
 
 

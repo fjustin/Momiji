@@ -11,7 +11,8 @@ ul li img{
 dl.searchbox{
     width: 350px;
     position:absolute;
-    margin:10px 1000px 1000px 1000px;
+    margin-left:100px;
+    margin-top:100px;
     background-color:#fff;
     border:1px solid #aaa;
     border-radius:6px;
@@ -53,7 +54,7 @@ dl.searchbox dd{
 // ロゴのデザイン
 .logo-space{
   margin-left:630px;
-  margin-top:50px;
+  margin-top:200px;
   position:absolute;
   z-index:2;
 }
@@ -85,7 +86,7 @@ h1 a:hover{
   position:absolute;
   z-index:2;
   margin-left:590px;
-  margin-top:110px;
+  margin-top:260px;
 }
 
 .logo-show{
@@ -135,31 +136,56 @@ h1 a:hover{
 
 // メニューのデザイン
 
-.menu{
-  margin-left:532px;
+#menu{
+  float:right;
+  margin-right:50px;
+  margin-top:60px;
   margin-bottom:50px;
-  margin-top:64px;
 }
+
+.top-menu{
+  width:auto;
+  height:40px;
+}
+
 
 .top-menu a{
   font-size:14px;
-  color:#000000;
-  font-weight:bold;
+  margin-left:30px;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  display: inline-block;
+  padding: 0.3em 1em;
   text-decoration: none;
-  display:inline;
-  margin-right:42px;
+  color: black;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+}.top-menu a:hover {
+   background: #000000;
+   color: white;
+ }
+
+.top-menu-signed-in{
+  width:auto;
+  height:40px;
 }
 
-.top-menu a:hover {
-  border-bottom:solid 2px #FE2E2E;
-  color:#FE2E2E;
-}
 
-span{
-  margin-right:42px;
-}
-
-
+.top-menu-signed-in a{
+  font-size:14px;
+  margin-left:30px;
+  font-family: 游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+}.top-menu-signed-in a:hover {
+   background: #000000;
+   color: white;
+ }
 
 //qiita-markdown css
 
@@ -790,6 +816,17 @@ footer span{
   }
 }
 
+// likeボタン
+.like-link{
+  float:right;
+  margin-right:50px;
+}
+
+.like-link img{
+  width:20px;
+  height:20px;
+  display:inline;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
