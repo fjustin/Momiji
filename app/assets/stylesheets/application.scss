@@ -816,6 +816,17 @@ footer span{
   }
 }
 
+// likeボタン
+.like-link{
+  float:right;
+  margin-right:50px;
+}
+
+.like-link img{
+  width:20px;
+  height:20px;
+  display:inline;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

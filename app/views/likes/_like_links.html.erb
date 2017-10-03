@@ -1,0 +1,9 @@
+<% if article.like_user(current_user.id)%>
+    <%= link_to article_like_path(article, article.like_user(current_user)), method: :delete, class: 'like-link', remote: true do%>
+      <%= image_tag("heart_red.png")%>
+    <%end%>
+<%else%>
+    <%= link_to article_likes_path(article), method: :post, class: 'like-link', remote: true do%>
+      <%= image_tag("none.png")%>
+    <%end%>
+<%end%>

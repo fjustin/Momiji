@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
       @search_articles = Article.all
     end
     @search_articles = @search_articles.published.order(created_at: :desc).page(params[:page])
-
+    @likes = Like.where(article_id: params[:id])
   end
 
   def show
@@ -45,7 +45,7 @@ class ArticlesController < ApplicationController
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description,:tag_list,:status,:user_id)
+    params[:article].permit(:title,:content,:image,:description,:tag_list,:status,:user_id,:likes)
   end
 
   def set_article
