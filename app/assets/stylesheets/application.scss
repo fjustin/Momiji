@@ -334,8 +334,8 @@ h1 a:hover{
 .description-zone{
   color: #6a6a6a;
   font-size:14px;
-  width:300px;
-  margin-top:20px;
+  width:290px;
+  margin-top:36px;
 }
 
 .date-index{
@@ -732,7 +732,6 @@ margin-left:220px;
 #about-momiji-who p{
   size:20px;
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-
 }
 
 
@@ -819,13 +818,75 @@ footer span{
 // likeボタン
 .like-link{
   float:right;
-  margin-right:50px;
+  margin-right:70px;
 }
 
 .like-link img{
   width:20px;
   height:20px;
-  display:inline;
+  position:absolute;
+}
+
+
+// likeページ
+#favorites-index{
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-weight:bold;
+  text-align:center;
+  font-size:32px;
+  margin-top:48px;
+  margin-bottom:36px;
+}
+
+
+.fav-content{
+  text-align:center;
+  margin-bottom:36px;
+}
+
+.fav-content img{
+  height:180px;
+  width:280px;
+}
+
+.fav-content a{
+  text-decoration:none;
+  font-family:"メイリオ",Meiryo;
+  font-weight:bold;
+  color:black;
+  font-size:20px;
+}
+
+
+.fav-content a:hover{
+  opacity:0.8;
+}
+
+.fav-border{
+  border:dashed black 1px;
+  margin-bottom:36px;
+  width:1000px;
+  margin-left:225px;
+}
+
+
+#logo-like{
+  margin-top:40px;
+  margin-bottom:24px;
+  text-align:center;
+}
+
+#logo-like a{
+  font-size:36px;
+  font-weight:bold;
+  color:black;
+  font-family:"メイリオ",Meiryo;
+  text-decoration:none
+}
+
+#logo-like a:hover{
+  color:#FE2E2E;
+  opacity:0.8;
 }
 
 /*
