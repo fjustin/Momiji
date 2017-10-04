@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d9506b-cc8b-445b-8aea-72d6155715b9" name="Default" comment="">
+    <list default="true" id="82d9506b-cc8b-445b-8aea-72d6155715b9" name="Default" comment="boot commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -689,7 +689,7 @@
       <workItem from="1507030593628" duration="410000" />
       <workItem from="1507031461590" duration="3000" />
       <workItem from="1507044008881" duration="2444000" />
-      <workItem from="1507098974101" duration="5600000" />
+      <workItem from="1507098974101" duration="5659000" />
     </task>
     <task id="LOCAL-00001" summary="Add favicon and fix smartphone">
       <created>1506538440159</created>
@@ -775,11 +775,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507131372559</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="boot commit">
+      <created>1507133314912</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1507133314912</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158802000" />
+    <option name="totallyTimeSpent" value="158861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -822,7 +829,8 @@
     <MESSAGE value="favorites list can be used" />
     <MESSAGE value="like function added by ajax" />
     <MESSAGE value="devise bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="devise bootstrap" />
+    <MESSAGE value="boot commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="boot commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
