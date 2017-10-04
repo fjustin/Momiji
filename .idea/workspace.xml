@@ -689,7 +689,7 @@
       <workItem from="1507030593628" duration="410000" />
       <workItem from="1507031461590" duration="3000" />
       <workItem from="1507044008881" duration="2444000" />
-      <workItem from="1507098974101" duration="5396000" />
+      <workItem from="1507098974101" duration="5600000" />
     </task>
     <task id="LOCAL-00001" summary="Add favicon and fix smartphone">
       <created>1506538440159</created>
@@ -779,7 +779,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158598000" />
+    <option name="totallyTimeSpent" value="158802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
