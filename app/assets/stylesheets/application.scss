@@ -1,4 +1,7 @@
+@import "devise_bootstrap_views";
 @import "jquery.bxslider";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 // サムネイル画像大きさ指定
 ul li img{
@@ -59,8 +62,12 @@ dl.searchbox dd{
   z-index:2;
 }
 
-h1 a{
+
+.logo-space a{
   text-decoration:none;
+}
+
+h1 a{
   color:white;
   font-size:42px;
 }
@@ -86,7 +93,7 @@ h1 a:hover{
   position:absolute;
   z-index:2;
   margin-left:590px;
-  margin-top:260px;
+  margin-top:270px;
 }
 
 .logo-show{
@@ -307,7 +314,7 @@ h1 a:hover{
   margin-top:64px;
   font-size:24px;
   height:440px;
-  width:330px;
+  width:380px;
   background-color:white;
   padding-left:50px;
   padding-top:30px;
@@ -351,7 +358,7 @@ h1 a:hover{
   float:right;
   font-size:24px;
   height:440px;
-  width:330px;
+  width:380px;
   background-color:white;
   padding-left:50px;
   padding-top:30px;
@@ -760,6 +767,8 @@ margin-left:220px;
 body{
   background-color:#fbf9f9;
 }
+
+
 // フッター
 footer{
   height:117px;
@@ -904,3 +913,4 @@ footer span{
  *= require_tree .
  *= require_self
  */
+

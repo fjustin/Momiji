@@ -41,9 +41,14 @@ GEM
     acts-as-taggable-on (5.0.0)
       activerecord (>= 4.2.8)
     arel (7.1.4)
+    autoprefixer-rails (7.1.2.3)
+      execjs
     aws_cf_signer (0.1.3)
     bcrypt (3.1.11)
     bindex (0.5.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     byebug (9.1.0)
     cancan (1.6.10)
@@ -69,6 +74,7 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    devise-bootstrap-views (0.0.11)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
@@ -254,6 +260,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts-as-taggable-on
+  bootstrap-sass
   byebug
   cancan
   carrierwave
@@ -261,6 +268,7 @@ DEPENDENCIES
   coderay
   coffee-rails (~> 4.2)
   devise
+  devise-bootstrap-views
   google-analytics-rails
   jbuilder (~> 2.5)
   jquery-rails
