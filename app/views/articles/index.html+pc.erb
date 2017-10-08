@@ -62,9 +62,11 @@
             <%end%>
           <p>
             <%= link_to article.title, article_path(article.id) %>
+          <% if user_signed_in?%>
             <div class="like-link<%=article.id%>">
             <%= render partial: 'likes/like_links', locals:{ article: article }%>
             </div>
+          <%end%>
           </p>
           <div class="description-zone">
             <%= simple_format article.description.truncate(70)%>
@@ -94,9 +96,11 @@
               <%end%>
               <p>
                 <%= link_to article.title, article_path(article.id) %>
+              <% if user_signed_in?%>
               <div class="like-link<%=article.id%>">
                 <%= render partial: 'likes/like_links', locals:{ article: article }%>
               </div>
+              <%end%>
               </p>
               <div class="description-zone">
                 <%= simple_format article.description.truncate(70)%>
@@ -117,6 +121,10 @@
             </div>
             </div>
             <%end%>
+    <%end%>
+
+<% @article_ranking.each do |article|%>
+    <%= article.title%>
     <%end%>
 
 <div class="paginate">

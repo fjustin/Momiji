@@ -11,7 +11,9 @@ class ArticlesController < ApplicationController
     end
     @search_articles = @search_articles.published.order(created_at: :desc).page(params[:page])
     @likes = Like.where(article_id: params[:id])
+    @article_ranking = Article.find(Like.group(:article_id).order('count(article_id) desc').limit(5).pluck(:article_id))
   end
+
 
   def show
   end
