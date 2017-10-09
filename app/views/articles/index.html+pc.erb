@@ -51,6 +51,16 @@
 </div>
 
 
+<ul id="ranking">
+  <p class="ranking-h">人気記事一覧</p>
+  <% @article_ranking.each do |article|%>
+      <li class="r-li">
+        <%= image_tag article.image.url%>
+        <%= link_to article.title,article_path(article.id)%>
+      </li>
+  <%end%>
+</ul>
+
 <% @search_articles.each_with_index do|article,i|%>
         <% if i%2==1%>
             <div id="astyle">
@@ -123,9 +133,6 @@
             <%end%>
     <%end%>
 
-<% @article_ranking.each do |article|%>
-    <%= article.title%>
-    <%end%>
 
 <div class="paginate">
   <%= paginate @search_articles%>

@@ -310,7 +310,7 @@ h1 a:hover{
 
 // 記事一覧
 .second-zone{
-  margin-left:300px;
+  margin-left:102px;
   margin-top:64px;
   font-size:24px;
   height:440px;
@@ -354,7 +354,7 @@ h1 a:hover{
 
 
 .third-zone{
-  margin-right:300px;
+  margin-right:102px;
   float:right;
   font-size:24px;
   height:440px;
@@ -897,6 +897,24 @@ footer span{
   color:#FE2E2E;
   opacity:0.8;
 }
+
+// 人気記事ランキング
+ul#ranking{
+  float:right;
+  height:500px;
+  width:300px;
+  margin-right:48px;
+}
+
+p.ranking-h{
+
+}
+
+li.r-li img{
+  margin-bottom:10px;
+}
+
+
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
