@@ -29,7 +29,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1860">
-                  <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+                  <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +78,8 @@
           <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="0" />
+                <state relative-caret-position="215">
+                  <caret line="932" column="27" lean-forward="false" selection-start-line="932" selection-start-column="27" selection-end-line="932" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -92,8 +92,8 @@
           <file leaf-file-name="index.html+pc.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+                <state relative-caret-position="411">
+                  <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -726,7 +726,7 @@
       <workItem from="1507044008881" duration="2444000" />
       <workItem from="1507098974101" duration="3948000" />
       <workItem from="1507374636245" duration="10561000" />
-      <workItem from="1507549134465" duration="2354000" />
+      <workItem from="1507549134465" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="Add favicon and fix smartphone">
       <created>1506538440159</created>
@@ -812,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507467846085</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ranking position repaired">
+      <created>1507552658771</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1507552658771</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170065000" />
+    <option name="totallyTimeSpent" value="171908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -859,7 +866,8 @@
     <MESSAGE value="favorites list can be used" />
     <MESSAGE value="like function added by ajax" />
     <MESSAGE value="Sort by like" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort by like" />
+    <MESSAGE value="ranking position repaired" />
+    <option name="LAST_COMMIT_MESSAGE" value="ranking position repaired" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1097,6 +1105,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,15 +1165,15 @@
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html+pc.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="932" column="27" lean-forward="false" selection-start-line="932" selection-start-column="27" selection-end-line="932" selection-end-column="27" />
           <folding />
         </state>
       </provider>

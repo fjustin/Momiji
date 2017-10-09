@@ -52,9 +52,12 @@
 
 
 <ul id="ranking">
-  <p class="ranking-h">人気記事一覧</p>
-  <% @article_ranking.each do |article|%>
+  <p class="ranking-h">お気に入りランキング</p>
+  <% @article_ranking.each_with_index do |article,r|%>
       <li class="r-li">
+        <div class="r">
+        <%= "#{r+1}"%>
+        </div>
         <%= image_tag article.image.url%>
         <%= link_to article.title,article_path(article.id)%>
       </li>

@@ -354,7 +354,7 @@ h1 a:hover{
 
 
 .third-zone{
-  margin-right:102px;
+  margin-right:122px;
   float:right;
   font-size:24px;
   height:440px;
@@ -903,18 +903,46 @@ ul#ranking{
   float:right;
   height:500px;
   width:300px;
-  margin-right:48px;
+  margin-right:72px;
+  margin-top:64px;
 }
 
 p.ranking-h{
-
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: white;/*背景透明に*/
+  border-left: solid 5px #FE2E2E;/*左線*/
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:24px;
 }
+
+li.r-li{
+  list-style-type:none;
+  margin-bottom:24px;
+}
+
 
 li.r-li img{
-  margin-bottom:10px;
+  margin-right:16px;
+  height:100px;
+  width:140px;
 }
 
-
+.r{
+  background-color:#FE2E2E;
+  opacity:0.8;
+  height:30px;
+  width:30px;
+  border:solid 2px white;
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  margin-left:110px;
+  margin-top:70px;
+  text-align:center;
+  padding-top:2px;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
