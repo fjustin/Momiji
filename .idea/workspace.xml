@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d9506b-cc8b-445b-8aea-72d6155715b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/momiji.iml" afterPath="$PROJECT_DIR$/.idea/momiji.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -701,7 +700,7 @@
       <workItem from="1507098974101" duration="3948000" />
       <workItem from="1507374636245" duration="10561000" />
       <workItem from="1507549134465" duration="4653000" />
-      <workItem from="1507650659972" duration="2741000" />
+      <workItem from="1507650659972" duration="2981000" />
     </task>
     <task id="LOCAL-00001" summary="Add favicon and fix smartphone">
       <created>1506538440159</created>
@@ -805,7 +804,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175105000" />
+    <option name="totallyTimeSpent" value="175345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
