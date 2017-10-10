@@ -10,4 +10,5 @@ class Article < ApplicationRecord
   def like_user(id)
     likes.find_by(user_id: id)
   end
+
 end

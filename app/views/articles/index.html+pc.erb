@@ -51,6 +51,19 @@
 </div>
 
 
+<ul id="ranking">
+  <p class="ranking-h">お気に入りランキング</p>
+  <% @article_ranking.each_with_index do |article,r|%>
+      <li class="r-li">
+        <div class="r">
+        <%= "#{r+1}"%>
+        </div>
+        <%= image_tag article.image.url%>
+        <%= link_to article.title,article_path(article.id)%>
+      </li>
+  <%end%>
+</ul>
+
 <% @search_articles.each_with_index do|article,i|%>
         <% if i%2==1%>
             <div id="astyle">
@@ -62,9 +75,11 @@
             <%end%>
           <p>
             <%= link_to article.title, article_path(article.id) %>
+          <% if user_signed_in?%>
             <div class="like-link<%=article.id%>">
             <%= render partial: 'likes/like_links', locals:{ article: article }%>
             </div>
+          <%end%>
           </p>
           <div class="description-zone">
             <%= simple_format article.description.truncate(70)%>
@@ -94,9 +109,11 @@
               <%end%>
               <p>
                 <%= link_to article.title, article_path(article.id) %>
+              <% if user_signed_in?%>
               <div class="like-link<%=article.id%>">
                 <%= render partial: 'likes/like_links', locals:{ article: article }%>
               </div>
+              <%end%>
               </p>
               <div class="description-zone">
                 <%= simple_format article.description.truncate(70)%>
@@ -118,6 +135,7 @@
             </div>
             <%end%>
     <%end%>
+
 
 <div class="paginate">
   <%= paginate @search_articles%>
