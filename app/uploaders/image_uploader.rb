@@ -19,8 +19,11 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   include Cloudinary::CarrierWave
   process :resize_to_limit => [700,700]
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 010690aedd5a02cec6cbad7e4ab053dd52cfc794
 
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
