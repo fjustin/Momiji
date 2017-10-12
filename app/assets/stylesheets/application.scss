@@ -313,7 +313,7 @@ h1 a:hover{
   margin-left:102px;
   margin-top:64px;
   font-size:24px;
-  height:440px;
+  height:460px;
   width:380px;
   background-color:white;
   padding-left:50px;
@@ -354,10 +354,10 @@ h1 a:hover{
 
 
 .third-zone{
-  margin-right:122px;
+  margin-right:82px;
   float:right;
   font-size:24px;
-  height:440px;
+  height:460px;
   width:380px;
   background-color:white;
   padding-left:50px;
@@ -902,8 +902,8 @@ footer span{
 ul#ranking{
   float:right;
   height:500px;
-  width:300px;
-  margin-right:72px;
+  width:350px;
+  margin-right:122px;
   margin-top:64px;
 }
 
@@ -920,14 +920,20 @@ p.ranking-h{
 li.r-li{
   list-style-type:none;
   margin-bottom:24px;
+  text-align:center;
 }
 
 
 li.r-li img{
-  margin-right:16px;
   height:100px;
   width:140px;
+  margin-bottom:16px;
 }
+
+li.r-li a{
+  font-size:8px;
+}
+
 
 .r{
   background-color:#FE2E2E;
