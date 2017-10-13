@@ -77,6 +77,8 @@ gem 'meta-tags'
 # jquery-turbolinks
 gem 'jquery-turbolinks'
 
+# font-awesome
+gem 'font-awesome-rails'
 
 # login-view
 gem 'devise-bootstrap-views'

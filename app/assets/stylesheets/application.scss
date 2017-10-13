@@ -773,13 +773,14 @@ body{
 footer{
   height:117px;
   bottom:0px;
-  margin-top:1500px;
+  margin-top:110px;
   width:auto;
   background-color:#000000;
   color:white;
   font-size:9px;
   padding-top:70px;
   padding-left:125px;
+  vertical-align:bottom;
 }
 
 footer span{
@@ -788,7 +789,8 @@ footer span{
 }
 
 .paginate{
-  margin-left:620px;
+  text-align:center;
+  margin-top:30px;
 }
 
 
@@ -879,6 +881,8 @@ footer span{
 }
 
 
+
+
 #logo-like{
   margin-top:40px;
   margin-bottom:24px;
@@ -898,10 +902,38 @@ footer span{
   opacity:0.8;
 }
 
+// お気に入り一覧 スマホ版
+.fav-border-sp{
+  border:dashed black 1px;
+  margin-bottom:36px;
+}
+
+.fav-contents-sp img{
+  width:500px;
+  height:260px;
+}
+
+.fav-contents-sp{
+  text-align:center;
+  margin-bottom:24px;
+}
+
+.fav-contents-sp a{
+  font-size:18px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-weight:bold;
+  color:black;
+}
+
+.fav-contents-sp a:hover{
+  opacity:0.8;
+}
+
+
 // 人気記事ランキング
 ul#ranking{
   float:right;
-  height:500px;
+  height:2500px;
   width:350px;
   margin-right:122px;
   margin-top:64px;
@@ -925,13 +957,13 @@ li.r-li{
 
 
 li.r-li img{
-  height:100px;
-  width:140px;
+  height:140px;
+  width:200px;
   margin-bottom:16px;
 }
 
 li.r-li a{
-  font-size:8px;
+  font-size:12px;
 }
 
 
@@ -944,11 +976,13 @@ li.r-li a{
   color:white;
   font-weight:bold;
   position:absolute;
-  margin-left:110px;
-  margin-top:70px;
+  margin-left:75px;
+  margin-top:110px;
   text-align:center;
   padding-top:2px;
 }
+
+
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -965,4 +999,3 @@ li.r-li a{
  *= require_tree .
  *= require_self
  */
-

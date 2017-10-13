@@ -17,9 +17,15 @@
     <%= link_to 'MOMIJI',articles_path%>
   </div>
   <ul id="menu-sp">
+    <% if user_signed_in?%>
+    <li><%= link_to '記事一覧',articles_path%></li>
+    <li><%= link_to 'お気に入り一覧',likes_user_path(current_user),method: :get%></li>
+    <li><%= link_to 'ログアウト',destroy_user_session_path,method: :delete%></li>
+    <%else%>
     <li><%= link_to '記事一覧',articles_path%></li>
     <li><%= link_to 'ログイン',user_session_path%></li>
-    <li><%= link_to 'MOMIJIとは',about_show_path%></li>
+    <li><%= link_to '新規登録',new_user_session_path%></li>
+    <%end%>
   </ul>
 </div>
 

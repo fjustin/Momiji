@@ -271,6 +271,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   devise-bootstrap-views
+  font-awesome-rails
   google-analytics-rails
   jbuilder (~> 2.5)
   jquery-rails
