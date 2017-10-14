@@ -15,10 +15,12 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   include CarrierWave::RMagick
-  process :resize_to_limit => [700,700]
-  
+    process :resize_to_limit => [700,700]
+  end
+
   include Cloudinary::CarrierWave
-process :resize_to_limit => [700,700]
+    process :resize_to_limit => [700,700]
+  end
 
 
 
