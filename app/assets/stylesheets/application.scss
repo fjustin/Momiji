@@ -2,6 +2,8 @@
 @import "jquery.bxslider";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "pagedown_bootstrap";
+@import "font-awesome";
 
 // サムネイル画像大きさ指定
 ul li img{
@@ -745,8 +747,11 @@ margin-left:220px;
 
 
 // 記事執筆ページのCSS
+#form-all{
+  padding-right:150px;
+}
 #form-style{
-  margin-left:300px;
+  margin-left:150px;
 }
 
 .title-style input{

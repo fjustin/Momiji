@@ -1,4 +1,5 @@
-<%= form_for @article do |f|%>
+<div id="form-all">
+<%= simple_form_for @article do |f|%>
     <% if @article.errors.any? %>
         <div id="error_explanation">
           <h2><%= @article.errors.count %>件のエラーがあります。</h2>
@@ -30,11 +31,9 @@
     <%= f.label :tag_list, "興味・関心（カンマ区切り）" %><br>
     <%= f.text_field :tag_list %>
   </div>
-  <div class="content-style">
-    <p><%= f.label :content%><br>
-      <%= f.text_area :content, :placeholder =>"記事本文を入力"%>
-    </p>
-  </div>
+
+      <%= f.input :content, as: :pagedown, input_html: { preview: true, rows: 20 } %>
+
     <p>
       <%= f.select :status, Article.statuses.keys.to_a, method: :patch %>
       <%= f.submit%>
@@ -42,3 +41,4 @@
 
 </div>
 <% end %>
+</div>
