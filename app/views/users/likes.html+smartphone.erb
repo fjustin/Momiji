@@ -1,0 +1,24 @@
+<div id="logo-like">
+    <%= link_to 'MOMIJI',articles_path%>
+</div>
+
+    <div id="favorites-index">お気に入り記事</div>
+<% if @user.likes.empty? %>
+    <div class="non">
+      まだお気に入りされた投稿はありません。
+    </div>
+<% end %>
+    </div>
+
+
+<% @user.likes.map { |f| f.article }.each do |article| %>
+    <div class="fav-contents-sp">
+        <p>
+        <%= image_tag article.image.url%>
+        </p>
+        <p>
+        <%= link_to article.title,article_path(article.id) %>
+        </p>
+    </div>
+    <div class="fav-border-sp"></div>
+<% end %>

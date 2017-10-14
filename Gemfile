@@ -77,9 +77,15 @@ gem 'meta-tags'
 # jquery-turbolinks
 gem 'jquery-turbolinks'
 
+# font-awesome
+gem 'font-awesome-rails'
 
 # login-view
 gem 'devise-bootstrap-views'
+
+# form of markdown
+gem 'simple_form'
+gem 'pagedown-bootstrap-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

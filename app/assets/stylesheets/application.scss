@@ -2,6 +2,8 @@
 @import "jquery.bxslider";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "pagedown_bootstrap";
+@import "font-awesome";
 
 // サムネイル画像大きさ指定
 ul li img{
@@ -313,7 +315,7 @@ h1 a:hover{
   margin-left:102px;
   margin-top:64px;
   font-size:24px;
-  height:440px;
+  height:460px;
   width:380px;
   background-color:white;
   padding-left:50px;
@@ -354,10 +356,10 @@ h1 a:hover{
 
 
 .third-zone{
-  margin-right:122px;
+  margin-right:82px;
   float:right;
   font-size:24px;
-  height:440px;
+  height:460px;
   width:380px;
   background-color:white;
   padding-left:50px;
@@ -745,8 +747,11 @@ margin-left:220px;
 
 
 // 記事執筆ページのCSS
+#form-all{
+  padding-right:150px;
+}
 #form-style{
-  margin-left:300px;
+  margin-left:150px;
 }
 
 .title-style input{
@@ -773,13 +778,14 @@ body{
 footer{
   height:117px;
   bottom:0px;
-  margin-top:1500px;
+  margin-top:110px;
   width:auto;
   background-color:#000000;
   color:white;
   font-size:9px;
   padding-top:70px;
   padding-left:125px;
+  vertical-align:bottom;
 }
 
 footer span{
@@ -788,7 +794,8 @@ footer span{
 }
 
 .paginate{
-  margin-left:620px;
+  text-align:center;
+  margin-top:30px;
 }
 
 
@@ -879,6 +886,8 @@ footer span{
 }
 
 
+
+
 #logo-like{
   margin-top:40px;
   margin-bottom:24px;
@@ -898,12 +907,40 @@ footer span{
   opacity:0.8;
 }
 
+// お気に入り一覧 スマホ版
+.fav-border-sp{
+  border:dashed black 1px;
+  margin-bottom:36px;
+}
+
+.fav-contents-sp img{
+  width:500px;
+  height:260px;
+}
+
+.fav-contents-sp{
+  text-align:center;
+  margin-bottom:24px;
+}
+
+.fav-contents-sp a{
+  font-size:18px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-weight:bold;
+  color:black;
+}
+
+.fav-contents-sp a:hover{
+  opacity:0.8;
+}
+
+
 // 人気記事ランキング
 ul#ranking{
   float:right;
-  height:500px;
-  width:300px;
-  margin-right:72px;
+  height:2500px;
+  width:350px;
+  margin-right:122px;
   margin-top:64px;
 }
 
@@ -920,14 +957,20 @@ p.ranking-h{
 li.r-li{
   list-style-type:none;
   margin-bottom:24px;
+  text-align:center;
 }
 
 
 li.r-li img{
-  margin-right:16px;
-  height:100px;
-  width:140px;
+  height:140px;
+  width:200px;
+  margin-bottom:16px;
 }
+
+li.r-li a{
+  font-size:12px;
+}
+
 
 .r{
   background-color:#FE2E2E;
@@ -938,11 +981,13 @@ li.r-li img{
   color:white;
   font-weight:bold;
   position:absolute;
-  margin-left:110px;
-  margin-top:70px;
+  margin-left:75px;
+  margin-top:110px;
   text-align:center;
   padding-top:2px;
 }
+
+
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -959,4 +1004,3 @@ li.r-li img{
  *= require_tree .
  *= require_self
  */
-

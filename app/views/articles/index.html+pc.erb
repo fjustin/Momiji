@@ -59,7 +59,9 @@
         <%= "#{r+1}"%>
         </div>
         <%= image_tag article.image.url%>
+        <div class="title-rank">
         <%= link_to article.title,article_path(article.id)%>
+        </div>
       </li>
   <%end%>
 </ul>
@@ -127,7 +129,7 @@
               </span>
               </div>
               <%if user_signed_in?%>
-                  <%if current_user.id == article.user.id%>
+                  <%if current_user.id == article.user_id%>
                   <%= link_to '編集',edit_article_path(article.id) %>
                   <%end%>
               <%end%>
