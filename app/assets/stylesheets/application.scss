@@ -454,7 +454,7 @@ li a:hover{
 }
 
 #cntnt{
-  height:500px;
+  height:1300px;
   width:1300px;
 }
 
@@ -777,15 +777,14 @@ body{
 // フッター
 footer{
   height:117px;
-  bottom:0px;
-  margin-top:110px;
-  width:auto;
   background-color:#000000;
   color:white;
   font-size:9px;
   padding-top:70px;
   padding-left:125px;
-  vertical-align:bottom;
+  margin-top:30px;
+  width: 100%;
+  margin-bottom:0px;
 }
 
 footer span{
