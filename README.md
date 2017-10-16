@@ -12,7 +12,7 @@ herokuでのデプロイを目指します。<br><br>
 - Ruby version : 2.4.2
 - Ruby on Rails : 5.0.5
 - datebase : postgresql
-- sass : heroku
+- saas : heroku
 
 ## 開発環境設定
 
