@@ -15,8 +15,6 @@
 //= require pagedown_bootstrap
 //= require pagedown_init
 //= require jquery_ujs
-//= require jquery.turbolinks
-//= require turbolinks
 //= require_tree .
 
 

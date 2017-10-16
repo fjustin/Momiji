@@ -1,0 +1,1 @@
+(function(){$(function(){return $("textarea.wmd-input").each(function(n,t){var r,i,e,a;return r=$(t).attr("id").split("wmd-input")[1],i=new Markdown.Converter,Markdown.Extra.init(i),a={handler:function(){return window.open("http://daringfireball.net/projects/markdown/syntax"),!1},title:"Markdown Editing Help"},e=new Markdown.Editor(i,r,a),e.run()})})}).call(this);
