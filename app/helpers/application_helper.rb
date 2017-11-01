@@ -38,6 +38,9 @@ module ApplicationHelper
             image: image,
             site_name: site
         },
+        fb: {
+          app_id: '1913886598627245'
+        },
         twitter: {
             site: '@justin0370',
             card: 'summary',

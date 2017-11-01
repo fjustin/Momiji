@@ -1,4 +1,5 @@
 Rails.application.configure do
+  GA.tracker = "UA-106333840-1"
   # Settings specified here will take precedence over those in config/application.rb.
   config.public_file_server.enabled = true
   # Code is not reloaded between requests.
@@ -86,5 +87,4 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.assets.precompile += ['*.js']
-  GA.tracker = "UA-106333840-1"
 end
