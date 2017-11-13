@@ -5,6 +5,15 @@
 @import "pagedown_bootstrap";
 @import "font-awesome";
 
+// 記事のスタイルシート
+@import "articles.scss";
+
+// aboutページのスタイルシート
+@import "about.scss";
+
+// like機能のスタイルシート
+@import "likes.scss";
+
 // サムネイル画像大きさ指定
 ul li img{
     height: 160px;
@@ -310,172 +319,6 @@ h1 a:hover{
 }
 
 
-// 記事一覧
-.second-zone{
-  margin-left:102px;
-  margin-top:64px;
-  font-size:24px;
-  height:460px;
-  width:380px;
-  background-color:white;
-  padding-left:50px;
-  padding-top:30px;
-}
-
-
-.second-zone a{
-  text-decoration:none;
-  font-size:20px;
-  font-weight:bold;
-  color:#000000;
-  cursor:pointer;
-}
-
-.second-zone a:hover{
-  color:#FE2E2E;
-}
-
-.second-zone img{
-  height:180px;
-  width:280px;
-}
-
-.description-zone{
-  color: #6a6a6a;
-  font-size:14px;
-  width:290px;
-  margin-top:36px;
-}
-
-.date-index{
-  float:right;
-  font-size:12px;
-  margin-right:10px;
-  margin-top:30px;
-}
-
-
-.third-zone{
-  margin-right:82px;
-  float:right;
-  font-size:24px;
-  height:460px;
-  width:380px;
-  background-color:white;
-  padding-left:50px;
-  padding-top:30px;
-  margin-top:64px;
-}
-
-.third-zone a{
-  text-decoration:none;
-  font-size:20px;
-  font-weight:bold;
-  color:#000000;
-  cursor:pointer;
-}
-
-.third-zone a:hover{
-  color:#FE2E2E;
-}
-
-.third-zone img{
-  height:180px;
-  width:280px;
-}
-
-.firstborder{
-  border:dotted 1px #FE2E2E;
-  margin-top:120px;
-}
-
-li a{
-  color:#000000;
-  font-weight:bold;
-  font-family:"メイリオ",Meiryo;
-  text-decoration:none;
-}
-
-li a:hover{
-  opacity:0.8;
-}
-
-
-// 記事内のデザイン
-.showtitle{
-  margin-left:360px;
-  font-weight:bold;
-  color:#000000;
-  font-size:36px;
-}
-
-.showtitle p{
-  font-size:32px;
-}
-
-.showcontent{
-  margin-left:360px;
-  margin-top:10px;
-  margin-right:190px;
-  font-size:16px;
-  line-height:1.7;
-}
-
-
-.showcontent p{
-  margin-bottom:1.7em;
-}
-
-
-.showcontent h2{
-  font-weight:bold;
-  font-size:20px;
-  padding: 10px 10px;
-  position: relative;
-  padding-bottom: 3px;
-  border-bottom:4px solid #ccc;
-}
-
-
-.showcontent h2::after{
-  position:absolute;
-  bottom: -4px;
-  left:0;
-  z-index:2;
-  content:'';
-  width:20%;
-  height:4px;
-  background-color: #FE2E2E;
-}
-
-.showcontent h3{
-  font-weight:bold;
-  font-size:14px;
-}
-
-#cntnt{
-  height:auto;
-  width:auto;
-}
-
-.link{
-  margin-top:100px;
-  text-align:center;
-  text-decoration:none;
-}
-
-#desc{
-  width:1000px;
-  height:auto;
-}
-
-#desc p{
-  color:#000000;
-  font-size:12px;
-  margin-left:360px;
-}
-
-
 //スライダー(PC)
 /* リセット */
 * {margin: 0; padding: 0;}
@@ -607,6 +450,7 @@ body,html {width: 100%;height: 100%;}
   width: 100%;
   vertical-align: bottom;
 }
+
 /* 装飾 */
 .bx-controls-direction,.bx-pager {text-align: center;height: 25px;}
 .bx-controls-direction a,.bx-pager-item {display: inline-block;}
@@ -615,164 +459,10 @@ body,html {width: 100%;height: 100%;}
 .bx-controls-direction a{text-decoration: none; color: #000; padding:0 5px;}
 .bx-controls {position: absolute;bottom: 5px;z-index: 100;width: 100%;}
 
-
-
-
-// スマホ版 デザイン
-.border_sp{
-  border:dotted 1px #FE2E2E;
-  margin-top:100px;
-  margin-bottom:50px;
-}
-
-
-.article_sp{
-  margin-bottom:50px;
-  width:auto;
-  height:150px;
-  font-size:24px;
-}
-
-.article_sp img {
-  height: 200px;
-  width: 370px;
-  margin-right:18px;
-  float:left;
-  position: absolute;
-  float:left;
-}
-
-
-.date-time{
-  margin-left:400px;
-  color:#666666;
-}
-
-
-
-/*
-*記事内のデザイン（スマートフォン）
- */
-.showtitle_sp{
-  margin-left:20px;
-  font-weight:bold;
-  color:#000000;
-  font-size:40px;
-}
-
-.showtitle_sp p span{
-  font-size:16px;
-}
-
-.showcontent_sp p{
-  font-size:20px;
-  margin-bottom:1.7em;
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-
-}
-
-
-.showcontent_sp{
-  margin-top:10px;
-  width:990px;
-}
-
-.showcontent_sp h2{
-  font-weight:bold;
-  font-size:36px;
-  padding: 10px 10px;
-  position: relative;
-  padding-bottom: 3px;
-  border-bottom:4px solid #ccc;
-}
-
-
-.showcontent_sp h2::after{
-  position:absolute;
-  bottom: -4px;
-  left:0;
-  z-index:2;
-  content:'';
-  width:20%;
-  height:4px;
-  background-color: #FE2E2E;
-}
-
-.showcontent_sp h3{
-  font-weight:bold;
-  font-size:18px;
-}
-
-
-
-
-.desc-sp{
-  color:#666666;
-  font-size:12px;
-  margin-left:350px;
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-}
-
-
-// Aboutページ
-.about-title{
-  margin-left:500px;
-  margin-bottom:50px;
-}
-
-#about-momiji{
-  height:500px;
-  width:850px;
-  margin-left:300px;
-}
-
-.about-title-who{
-  vertical-align: center;
-  text-align: center;
-  margin-bottom:50px;
-}
-
-#about-momiji-who{
-  height:500px;
-  width:600px;
-margin-left:220px;
-}
-
-#about-momiji-who p{
-  size:20px;
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-}
-
-
-
-
-// 記事執筆ページのCSS
-#form-all{
-  padding-right:150px;
-}
-#form-style{
-  margin-left:150px;
-}
-
-.title-style input{
-  width:500px;
-}
-
-.des-style input{
-  width:500px;
-  height:100px;
-}
-
-.content-style textarea{
-  width:1000px;
-  height:500px;
-}
-
-
+// body
 body{
   background-color:#fbf9f9;
 }
-
 
 // フッター
 footer{
@@ -796,7 +486,6 @@ footer span{
   text-align:center;
   margin-top:30px;
 }
-
 
 // share button
 .date-content{
@@ -828,162 +517,6 @@ footer span{
       margin-right: 17px;
     }
   }
-}
-
-// likeボタン
-.like-link{
-  float:right;
-  margin-right:70px;
-}
-
-.like-link img{
-  width:20px;
-  height:20px;
-  position:absolute;
-}
-
-
-// likeページ
-#favorites-index{
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-  font-weight:bold;
-  text-align:center;
-  font-size:32px;
-  margin-top:48px;
-  margin-bottom:36px;
-}
-
-
-.fav-content{
-  text-align:center;
-  margin-bottom:36px;
-}
-
-.fav-content img{
-  height:180px;
-  width:280px;
-}
-
-.fav-content a{
-  text-decoration:none;
-  font-family:"メイリオ",Meiryo;
-  font-weight:bold;
-  color:black;
-  font-size:20px;
-}
-
-
-.fav-content a:hover{
-  opacity:0.8;
-}
-
-.fav-border{
-  border:dashed black 1px;
-  margin-bottom:36px;
-  width:1000px;
-  margin-left:225px;
-}
-
-
-
-
-#logo-like{
-  margin-top:40px;
-  margin-bottom:24px;
-  text-align:center;
-}
-
-#logo-like a{
-  font-size:36px;
-  font-weight:bold;
-  color:black;
-  font-family:"メイリオ",Meiryo;
-  text-decoration:none
-}
-
-#logo-like a:hover{
-  color:#FE2E2E;
-  opacity:0.8;
-}
-
-// お気に入り一覧 スマホ版
-.fav-border-sp{
-  border:dashed black 1px;
-  margin-bottom:36px;
-}
-
-.fav-contents-sp img{
-  width:500px;
-  height:260px;
-}
-
-.fav-contents-sp{
-  text-align:center;
-  margin-bottom:24px;
-}
-
-.fav-contents-sp a{
-  font-size:18px;
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-  font-weight:bold;
-  color:black;
-}
-
-.fav-contents-sp a:hover{
-  opacity:0.8;
-}
-
-
-// 人気記事ランキング
-ul#ranking{
-  float:right;
-  height:2500px;
-  width:350px;
-  margin-right:122px;
-  margin-top:64px;
-}
-
-p.ranking-h{
-  padding: 0.25em 0.5em;/*上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: white;/*背景透明に*/
-  border-left: solid 5px #FE2E2E;/*左線*/
-  font-size:20px;
-  font-weight:bold;
-  margin-bottom:24px;
-}
-
-li.r-li{
-  list-style-type:none;
-  margin-bottom:24px;
-  text-align:center;
-}
-
-
-li.r-li img{
-  height:140px;
-  width:200px;
-  margin-bottom:16px;
-}
-
-li.r-li a{
-  font-size:12px;
-}
-
-
-.r{
-  background-color:#FE2E2E;
-  opacity:0.8;
-  height:30px;
-  width:30px;
-  border:solid 2px white;
-  color:white;
-  font-weight:bold;
-  position:absolute;
-  margin-left:75px;
-  margin-top:110px;
-  text-align:center;
-  padding-top:2px;
 }
 
 
