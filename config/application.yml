@@ -1,0 +1,52 @@
+defaults: &defaults
+
+  # 全体ページ
+  site:
+    name: MOMIJI
+    root_url: http://momiji.work/
+    meta:
+      title: MOMIJI
+      description: 美味しい和菓子が見つかるメディア
+      keywords: 和菓子, スイーツ, MOMIJI
+      favicon: /favicon.ico
+      fb:
+        app_id: 1913886598627245
+      og:
+        title: MOMIJI
+        description: 美味しい和菓子が見つかるメディア
+        image: /app/assets/images/wa_1.jpg
+        type: website
+      twitter:
+        title: MOMIJI
+        description: 美味しい和菓子が見つかるメディア
+        image: /app/assets/images/wa_1.jpg
+    sns_account:
+      twitter: https://twitter.com/Justin0370
+
+  # 個別ページ
+  about:
+    meta:
+      title: about page
+      description: about description
+      keywords: about1, about2, about3
+
+
+  # share
+  share:
+    twitter:
+      text: MOMIJI | 美味しい和菓子が見つかるメディア
+        MOMIJIは美味しい和菓子が見つかるメディアです。
+        #hashtag description
+      hashtags: MOMIJI, 和菓子
+    line:
+      text: MOMIJI | 美味しい和菓子が見つかるメディア
+        MOMIJIは美味しい和菓子が見つかるメディアです。
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

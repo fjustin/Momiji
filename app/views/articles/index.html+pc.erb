@@ -1,8 +1,3 @@
-<% assign_meta_tags title: '記事一覧',
-                    description: '美味しい和菓子が見つかるメディア',
-                    keywords: '和菓子' %>
-
-
 <dl class="searchbox">
   <%= search_form_for @search, url: articles_path do |f| %>
       <dt><%= f.search_field :title_or_content_cont ,placeholder: '検索するテキストを入力...' %></dt>
