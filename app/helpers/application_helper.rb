@@ -2,49 +2,55 @@ module ApplicationHelper
   require "redcarpet"
   require "coderay"
 
-
-
-  def show_meta_tags
-    if display_meta_tags.blank?
-      assign_meta_tags
-    end
-    display_meta_tags
-  end
-
-  def assign_meta_tags(options = {})
-    defaults = t('meta_tags.defaults')
-    options.reverse_merge!(defaults)
-
-    site = options[:site]
-    title = options[:title]
-    description = options[:description]
-    keywords = options[:keywords]
-    image = options[:image].presence || image_url('wa_1.jpg')
-
-    configs = {
-        separator: '|',
+  def default_meta_tags
+      {
+        charset: 'utf-8',
+        site: Settings.site.name,
         reverse: true,
-        site: site,
-        title: title,
-        description: description,
-        keywords: keywords,
-        canonical: request.original_url,
-        og: {
-            type: 'article',
-            title: title.presence || site,
-            description: description,
-            locale: 'ja_JP',
-            url: request.original_url,
-            image: image,
-            site_name: site
-        },
-        twitter: {
-            site: '@justin0370',
-            card: 'summary',
-        }
-    }
+        title: @page_title || Settings.site.meta.title,
+        description: @page_description || Settings.site.meta.description,
+        keywords: @page_keywords || Settings.site.meta.keywords,
+        canonical: url_for(only_path: false, protocol: 'https'),
+        icon: Settings.site.meta.favicon,
+        og: default_og,
+        twitter: default_twitter
+      }
+    end
 
-    set_meta_tags(configs)
+    def default_og
+      return if noindex?
+      {
+        title: @og_title || Settings.site.meta.og.title, # :title
+        description: @og_description || Settings.site.meta.og.description, # :description
+        type: Settings.site.meta.og.type,
+        url: :canonical,
+        image: page_og_image,
+        site_name: Settings.site.name,
+        locale: 'ja_JP'
+      }
+    end
+
+    def page_og_image
+      @page_image || image_url(Settings.site.meta.og.image)
+    end
+
+    def default_twitter
+      return if noindex?
+      {
+        card: "summary_large_image",
+        title: @twitter_title || Settings.site.meta.twitter.title,
+        description: @twitter_description || Settings.site.meta.twitter.description,
+        image: page_twitter_image
+      }
+    end
+
+    def page_twitter_image
+      @page_image || image_url(Settings.site.meta.twitter.image)
+    end
+
+    def noindex?
+    end
+
   end
 
 
@@ -87,4 +93,3 @@ module ApplicationHelper
     markdown = Redcarpet::Markdown.new(html_render, options)
     markdown.render(text)
   end
-end

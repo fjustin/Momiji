@@ -1,3 +1,32 @@
 // Place all the styles related to the about controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Aboutページ
+.about-title{
+  margin-left:500px;
+  margin-bottom:50px;
+}
+
+#about-momiji{
+  height:500px;
+  width:850px;
+  margin-left:300px;
+}
+
+.about-title-who{
+  vertical-align: center;
+  text-align: center;
+  margin-bottom:50px;
+}
+
+#about-momiji-who{
+  height:500px;
+  width:600px;
+margin-left:220px;
+}
+
+#about-momiji-who p{
+  size:20px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}

@@ -1,8 +1,3 @@
-<% assign_meta_tags title: '記事一覧',
-                    description: '美味しい和菓子が見つかるメディア',
-                    keywords: '和菓子' %>
-
-
 <dl class="searchbox">
   <%= search_form_for @search, url: articles_path do |f| %>
       <dt><%= f.search_field :title_or_content_cont ,placeholder: '検索するテキストを入力...' %></dt>
@@ -94,9 +89,15 @@
               <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
               </span>
             </div>
-          <%if user_signed_in?%>
-              <%= link_to '編集',edit_article_path(article.id) %>
-          <%end%>
+            <span>
+              <div class="edit-style">
+                <%if user_signed_in?%>
+                  <%if current_user.id == article.user_id %>
+                    <%= link_to '編集',edit_article_path(article.id) %>
+                  <%end%>
+                <%end%>
+              </div>
+          <span>
         </div>
 
 
@@ -128,12 +129,15 @@
               <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
               </span>
               </div>
-              <%if user_signed_in?%>
-                  <%if current_user.id == article.user_id%>
-                  <%= link_to '編集',edit_article_path(article.id) %>
+              <span>
+                <div class="edit-style">
+                  <%if user_signed_in?%>
+                    <%if current_user.id == article.user_id%>
+                      <%= link_to '編集',edit_article_path(article.id) %>
+                    <%end%>
                   <%end%>
-              <%end%>
-            </div>
+                </div>
+            </span>
             </div>
             <%end%>
     <%end%>

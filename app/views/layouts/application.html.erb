@@ -2,15 +2,14 @@
 <html>
   <head>
     <title>Momiji | 美味しい和菓子が見つかるメディア</title>
+    <%= render partial: 'layouts/meta_tags'%>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'true' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'true' %>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <%= show_meta_tags %>
+    <meta name="google-site-verification" content="yemxwLCi3I5IcBWMjlzqXnDJo0sxOsBAZthDosq8ZLY" />
     <%= favicon_link_tag('favicon.ico') %>
 
     <%= analytics_init if Rails.env.production? %>

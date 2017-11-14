@@ -1,0 +1,20 @@
+<meta (content='NOYDIR' name='ROBOTS')>
+<meta (content='NOODP' name='ROBOTS')>
+<link (media='handheld' rel='alternate')>
+
+<meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no")>
+<meta(property="fb:app_id" content=Settings.site.meta.fb.app_id)>
+
+<% #IEで「互換モード」で表示されるのを防ぐための指定%>
+<meta(http-equiv="X-UA-Compatible" content="IE=Edge")>
+
+<% #webclip icon%>
+<meta(name="apple-mobile-web-app-capable" content='yes')>
+<meta(name="apple-mobile-web-app-status-bar-style" content='default')>
+<link(rel="apple-touch-icon" href=Settings.site.meta.webclipicon)>
+
+<%if noindex?%>
+  <% set_meta_tags noindex: true, nofollow: true%>
+<%end%>
+
+<%= display_meta_tags(default_meta_tags)%>
