@@ -61,9 +61,9 @@
   <%end%>
 </ul>
 
+<div id="astyle">
 <% @search_articles.each_with_index do|article,i|%>
         <% if i%2==1%>
-            <div id="astyle">
         <div class="second-zone">
             <% if article.image?%>
                 <%= image_tag article.image.url %>
@@ -99,11 +99,7 @@
               </div>
           <span>
         </div>
-
-
           <%elsif i%2==0%>
-
-
             <div class ="third-zone">
               <% if article.image?%>
                   <%= image_tag article.image.url %>
@@ -140,7 +136,10 @@
             </span>
             </div>
             <%end%>
-    <%end%>
+          <%end%>
+  </div>
+
+    <div class="blank"></div>
 
 
 <div class="paginate">
