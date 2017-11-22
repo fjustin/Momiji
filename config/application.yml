@@ -14,12 +14,12 @@ defaults: &defaults
       og:
         title: MOMIJI
         description: 美味しい和菓子が見つかるメディア
-        image: /app/assets/images/wa_1.jpg
+        image: /assets/wa_1-fbae787fda2d16778e58a80a5b91e50bf2f3de9f7b1e2fa4a39ff2d9107995ae.jpg
         type: website
       twitter:
         title: MOMIJI
         description: 美味しい和菓子が見つかるメディア
-        image: /app/assets/images/wa_1.jpg
+        image: /assets/wa_1-fbae787fda2d16778e58a80a5b91e50bf2f3de9f7b1e2fa4a39ff2d9107995ae.jpg
     sns_account:
       twitter: https://twitter.com/Justin0370
 
