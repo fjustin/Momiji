@@ -5,6 +5,7 @@
   <% end %>
 </dl>
 
+  <!-- メニュー -->
 
 <div id="menu">
   <% if user_signed_in?%>
@@ -22,7 +23,7 @@
 </div>
 
 
-
+  <!-- ロゴ -->
 <div class="logo-space">
   <h1>
     <%= link_to 'MOMIJI',articles_path%>
@@ -46,6 +47,7 @@
 </div>
 
 
+  <!-- いいね！ランキング -->
 <ul id="ranking">
   <p class="ranking-h">お気に入りランキング</p>
   <% @article_ranking.each_with_index do |article,r|%>
@@ -60,6 +62,9 @@
       </li>
   <%end%>
 </ul>
+
+
+<!-- 記事ループ -->
 
 <div id="astyle">
 <% @search_articles.each_with_index do|article,i|%>
@@ -142,6 +147,7 @@
     <div class="blank"></div>
 
 
+<!-- ページネーション -->
 <div class="paginate">
   <%= paginate @search_articles%>
 </div>
