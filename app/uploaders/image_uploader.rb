@@ -14,14 +14,12 @@ class ImageUploader < CarrierWave::Uploader::Base
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
-
-  include CarrierWave::RMagick
-    process :resize_to_limit => [700,700]
-
-=begin
-  include Cloudinary::CarrierWave
+=begin  include CarrierWave::RMagick
     process :resize_to_limit => [700,700]
 =end
+
+  include Cloudinary::CarrierWave
+    process :resize_to_limit => [700,700]
 
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
