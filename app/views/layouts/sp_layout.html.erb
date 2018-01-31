@@ -7,28 +7,61 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   <%= analytics_init if Rails.env.production? %>
-  <%= show_meta_tags %>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="yemxwLCi3I5IcBWMjlzqXnDJo0sxOsBAZthDosq8ZLY" />
   <%= favicon_link_tag('favicon.ico') %>
 </head>
 
 
-<div id="menu-box">
-  <div id="toggle">
-    <%= link_to 'MOMIJI',articles_path%>
+<div class="l_nav">
+  <div class="sp_menu">
+    <ul class="nav_menu">
+      <li>
+        <div class="nav_list_inner">
+          <i class="fa fa-user-o" aria-hidden="true"></i>
+          <%= link_to 'ログイン',new_user_session_path,:style=>"margin-left: 15px;" %>
+        </div>
+      </li>
+      <li>
+        <div class="nav_list_inner">
+          <%= link_to '会員登録(無料)',new_user_session_path %>
+        </div>
+      </li>
+      <li>
+        <div class="nav_list_inner">
+          <%= link_to '記事一覧',articles_path %>
+        </div>
+      </li>
+      <li>
+        <div class="nav_list_inner">
+          <a href="#">ヘルプ</a>
+        </div>
+      </li>
+    </ul>
   </div>
-  <ul id="menu-sp">
-    <% if user_signed_in?%>
-    <li><%= link_to '記事一覧',articles_path%></li>
-    <li><%= link_to 'お気に入り一覧',likes_user_path(current_user),method: :get%></li>
-    <li><%= link_to 'ログアウト',destroy_user_session_path,method: :delete%></li>
-    <%else%>
-    <li><%= link_to '記事一覧',articles_path%></li>
-    <li><%= link_to 'ログイン',user_session_path%></li>
-    <li><%= link_to '新規登録',new_user_session_path%></li>
-    <%end%>
-  </ul>
+  <div class="sns">
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+  </div>
 </div>
 
+<!-- div[side_nav] -->
+<div class="on_wrap"></div>
+
+<nav class="wrap">
+  <div class="l_header">
+    <div class="header_inner inner">
+  <i class="fa fa-bars" aria-hidden="true" style="position:absolute; margin-top:17px; margin-left:10px"></i>
+    </div>
+</div>
+<h1 style="background-color:white">
+  <a href="/">
+    MOMIJI
+  </a>
+</h1>
+</nav>
 
 
 <body>

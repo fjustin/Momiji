@@ -1,29 +1,3 @@
-<% assign_meta_tags title: '記事一覧',
-                    description: '美味しい和菓子が見つかるメディア',
-                    keywords: '和菓子' %>
-
-<div class="logo-space-who">
-  <h1>
-    <%= link_to 'MOMIJI',articles_path%>
-  </h1>
-</div>
-
-<p class="concept-who">美味しい和菓子が見つかるメディア</p>
-
-<%= javascript_include_tag 'assets/bxslider','data-turbolinks-track': 'reload'%>
-
-<div class="container">
-  <div class="slide_all">
-    <div class="slide_wrap">
-      <div class="slide_body">
-        <div class="slide"><%= image_tag 'wa_1.jpg'%></div>
-        <div class="slide"><%= image_tag 'wa_2.jpg'%></div>
-        <div class="slide"><%= image_tag 'wa_3.jpg'%></div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <% @search_articles.each do|article|%>
     <div class="article_sp" style="list-style:none;">
       <% if article.image?%>
@@ -42,8 +16,10 @@
         <div class="like-link<%=article.id%>">
         <%= render partial: 'likes/like_links', locals:{ article: article }%>
         </div>
-      <%end%>
+      </div>
+<%end%>
 
+<!--
       <div class="tag-sumaho">
               <span>
               <%= raw(article.tag_list.map { |t| link_to t, tag_path(t) }.join(' / ')) %>
@@ -51,10 +27,9 @@
       </div>
 
     </div>
-
-    <div class="border_sp">
-    </div>
+-->
 <%end%>
+
 
 <div class="paginate">
   <%= paginate @search_articles%>
