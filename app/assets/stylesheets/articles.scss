@@ -195,27 +195,32 @@ span .edit-style a:hover{
 
 
 .article_sp{
-  margin-bottom:50px;
-  width:auto;
-  height:150px;
+  position:relative;
+  width:100%;
+  height:200px;
   font-size:24px;
 }
 
 .article_sp img {
   height: 200px;
-  width: 370px;
-  margin-right:18px;
-  float:left;
-  position: absolute;
+  width: 100%;
   float:left;
 }
 
 
 .date-time{
-  margin-left:400px;
-  color:#666666;
+  color:black;
+  font-size:12px;
+  float:right;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
 }
 
+.title_sp{
+  a{
+    font-size: 18px;
+    color:black;
+  }
+}
 
 
 /*
@@ -242,7 +247,7 @@ span .edit-style a:hover{
 
 .showcontent_sp{
   margin-top:10px;
-  width:990px;
+  width:100%;
 }
 
 .showcontent_sp h2{

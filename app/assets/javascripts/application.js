@@ -16,18 +16,16 @@
 //= require pagedown_init
 //= require jquery_ujs
 //= require_tree .
-
-
-$(document).ready(function() {
-    $("#toggle").click(function () {
-        $("#menu-sp").slideToggle();
-        return false;
+/*----------------------------------------------------------------------*/
+/* sp_nav_menu
+/*----------------------------------------------------------------------*/
+$(function() {
+    $("i.fa.fa-bars").on("click",function(){
+        $("body").toggleClass("is_active");
     });
-    $(window).resize(function () {
-        var win = $(window).width();
-        var p = 480;
-        if (win > p) {
-            $("#menu-sp").show();
-        }
+    //on_wrapをクリックしたとき、クラスを削除
+    $(".on_wrap").on("click",function(){
+        $("body").removeClass("is_active");
     });
+
 });

@@ -78,7 +78,6 @@ dl.searchbox dd{
   text-decoration:none;
 }
 
-
 h1 a{
   color:white;
   font-size:42px;
@@ -96,6 +95,28 @@ h1 a:visited{
 
 h1 a:hover{
   color:#FE2E2E;
+}
+
+@media screen and( max-width:375px)
+{
+  h1{
+    color:black;
+    font-family:游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:18px;
+    text-align: center;
+    height:30px;
+    a{
+      color:black;
+      font-size:18px;
+    }
+    a:visited{
+      text-decoration:none;
+      color:black;
+    }
+  }
+  i.fa.fa-bars{
+    font-size:20px;
+  }
 }
 
 .concept{
@@ -136,7 +157,6 @@ h1 a:hover{
 
 // スマホのロゴ
 .logo-space-who{
-  margin-left:400px;
   margin-top:50px;
   position:absolute;
   z-index:2;
@@ -148,7 +168,6 @@ h1 a:hover{
   font-weight:bold;
   position:absolute;
   z-index:2;
-  margin-left:350px;
   margin-top:120px;
 }
 
@@ -347,99 +366,122 @@ body,html {width: 100%;height: 100%;}
  * スマホ版表示
  */
 
-.sp_top{
-  margin-left:360px;
-}
-
-.title_sp{
-  margin-left:400px;
-}
-
-.title_sp a{
-  color:#000000;
-  text-decoration:none;
-  font-family:"メイリオ",Meiryo;
-  font-weight:bold;
-  font-size:32px;
-}
-
-
-.title_sp a:hover{
-  opacity:0.8;
-}
-
 
 // スマホ版メニュー
-  #menu-sp{
-    display: none;
-  }
-  #menu-sp li {
-    width: 100%;
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-
-#menu-sp li a{
-  display: block;
-  padding: 12px 0 10px;
-  background: #333;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
+// sp_menu関連
+.on_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  visibility: hidden;
 }
 
+.l_header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color:white;
+}
 
-#toggle{
-    display: block;
-    position: relative;
-    width: 100%;
-    background: #FE2E2E;
-  }
-  #toggle a{
-    display: block;
-    position: relative;
-    padding: 12px 0 10px;
-    border-bottom: 1px solid #444;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    font-size:20px;
-  }
-  #toggle:before{
-    display: block;
-    content: "";
+.is_active .l_header {
+  left: 220px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.is_active .wrap {
+  left: 220px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.is_active .on_wrap {
+  position: fixed;
+  left: 220px;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  overflow: hidden;
+  visibility: visible;
+  -webkit-transition: .3s;
+  transition: .3s;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.is_active .l_nav {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.l_nav {
+  background: #fff;
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -220px;
+  z-index: 1000;
+  -webkit-transition: .3s;
+  transition: .3s;
+  .sns{
     position: absolute;
-    top: 50%;
-    left: 10px;
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    background: #fff;
+    bottom:0;
+    margin-left:10px;
+    i.fa{
+      margin-top:10px;
+      color:#BBBDBE;
+      font-size:1.4em;
+      margin-right:0.5em;
+    }
   }
-  #toggle a:before, #toggle a:after{
-    display: block;
-    content: "";
+}
+
+.nav_menu{
+  padding: 0;
+  list-style: none;
+}
+
+.l_nav .nav_menu a {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  display: block;
+  padding: 15px 0px 15px 15px;
+  color: #333;
+}
+
+.l_nav .nav_menu .nav_list_inner {
+  position: relative;
+  i.fa-user-o{
+    margin-right:5px;
     position: absolute;
-    top: 50%;
-    left: 10px;
-    width: 20px;
-    height: 4px;
-    background: #222;
+    margin-top: 1.2em;
+    margin-left: 10px;
   }
-  #toggle a:before{
-    margin-top: -6px;
-  }
-  #toggle a:after{
-    margin-top: 2px;
-  }
+}
+
+.sp_menu{
+  background-color:#F7F7F7;
+}
+
 
 
 //スライダー(スマホ)
 /* リセット */
 * {margin: 0; padding: 0;}
-body,html {width: 100%;height: 100%;}
+body,html {
+  width: 100%;height: 100%;
+  }
 /* 設定 */
 .container {width: 100%; height: 500px; overflow-x: hidden;}
 .slide_all {width: 800px; margin: 0 auto; height: 250px; position: relative;}
@@ -463,6 +505,12 @@ body,html {width: 100%;height: 100%;}
 // body
 body{
   background-color:#fbf9f9;
+}
+
+@media screen and(max-width:375px){
+  body{
+    background-color:white;
+  }
 }
 
 // フッター
