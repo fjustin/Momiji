@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   before_action :set_request_variant
   protect_from_forgery with: :exception
-  before_filter :set_search
+  before_action :set_search
   layout :select_layout
 
   def set_search
