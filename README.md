@@ -3,14 +3,14 @@
 和菓子専門メディア Momijiのレポジトリです。
 MomojiはRubyのフレームワークRuby on railsで作られています。
 herokuでのデプロイを目指します。<br><br>
-リリース日:9/8
+リリース日:2017/9/8
 [MOMIJI](http://momiji.work)
 
 <br><br>
 ## 各情報
 - Repository name : Momiji
-- Ruby version : 2.4.2
-- Ruby on Rails : 5.0.5
+- Ruby version : 2.5.0
+- Ruby on Rails : 5.1.4
 - datebase : postgresql
 - saas : heroku
 
