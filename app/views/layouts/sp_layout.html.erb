@@ -16,11 +16,10 @@ gtag('config', 'UA-106333840-1');
   <%= csrf_meta_tags %>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application'%>
   <%= analytics_init if Rails.env.production? %>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="yemxwLCi3I5IcBWMjlzqXnDJo0sxOsBAZthDosq8ZLY" />
   <%= favicon_link_tag('favicon.ico') %>
 
   <div id="fb-root"></div>
