@@ -19,7 +19,7 @@
 /*----------------------------------------------------------------------*/
 /* sp_nav_menu
 /*----------------------------------------------------------------------*/
-$(function() {
+$(document).on('turbolinks:load',function() {
     $("i.fa.fa-bars").on("click",function(){
         $("body").toggleClass("is_active");
     });
