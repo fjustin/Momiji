@@ -20,6 +20,18 @@
   js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12&appId=1913886598627245&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script>
+$(function() {
+    $("i.fa.fa-bars").on("click",function(){
+        $("body").toggleClass("is_active");
+    });
+    //on_wrapをクリックしたとき、クラスを削除
+    $(".on_wrap").on("click",function(){
+        $("body").removeClass("is_active");
+    });
+
+});
+</script>
 </head>
 
 

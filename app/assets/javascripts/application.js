@@ -16,16 +16,3 @@
 //= require pagedown_init
 //= require jquery_ujs
 //= require_tree .
-/*----------------------------------------------------------------------*/
-/* sp_nav_menu
-/*----------------------------------------------------------------------*/
-$(document).on('turbolinks:load',function() {
-    $("i.fa.fa-bars").on("click",function(){
-        $("body").toggleClass("is_active");
-    });
-    //on_wrapをクリックしたとき、クラスを削除
-    $(".on_wrap").on("click",function(){
-        $("body").removeClass("is_active");
-    });
-
-});
