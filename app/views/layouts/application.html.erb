@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106333840-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106333840-1');
+</script>
+
     <title>Momiji | 美味しい和菓子が見つかるメディア</title>
     <%= render partial: 'layouts/meta_tags'%>
     <%= csrf_meta_tags %>
@@ -9,7 +19,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="yemxwLCi3I5IcBWMjlzqXnDJo0sxOsBAZthDosq8ZLY" />
     <%= favicon_link_tag('favicon.ico') %>
 
     <%= analytics_init if Rails.env.production? %>
