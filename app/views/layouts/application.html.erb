@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-<!-- twitter ogp -->
-<meta property="og:title" content="MOMIJI" />
-<meta property="og:type" content="website" /> <!--またはwebsite, blog-->
-<meta property="og:url" content="http://momiji.work/" />
-<meta property="og:image" content="<%= asset_url('wa_1.jpg') %>" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@Justin0370" />
-<meta name="twitter:title" content="MOMIJI" />
-<meta name="twitter:description" content="美味しい和菓子が集まるサイト" />
-<meta name="twitter:image" content="<%= asset_url('wa_1.jpg') %>" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106333840-1"></script>
 <script>
@@ -23,6 +13,17 @@
 
     <title>Momiji | 美味しい和菓子が見つかるメディア</title>
     <%= render partial: 'layouts/meta_tags'%>
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="MOMIJI">
+    <meta property="og:description" content="MOMIJIは美味しい和菓子の情報が集まるサイト">
+    <meta property="og:url" content="http://momiji.work/">
+    <meta property="og:image" content="<%= asset_url('wa_1.jpg') %>">
+    <meta property="og:site_name" content="美味しい和菓子の情報を集めるならここ">
+    <meta name="twitter:site" content="@Justin0370">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MOMIJI">
+    <meta name="twitter:image" content="<%= asset_url('wa_1.jpg') %>">
+    <meta name="twitter:description" content="MOMIJIは美味しい和菓子の情報が集まるサイト">
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'true' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'true' %>
