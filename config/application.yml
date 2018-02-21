@@ -35,13 +35,11 @@ defaults: &defaults
   share:
     twitter:
       text: |-
-        MOMIJI | 美味しい和菓子が見つかるメディア
         MOMIJIは美味しい和菓子が見つかるメディアです。
         #hashtag description
       hashtags: MOMIJI, 和菓子
     line:
       text: |-
-        MOMIJI | 美味しい和菓子が見つかるメディア
         MOMIJIは美味しい和菓子が見つかるメディアです。
 
 development:
