@@ -12,9 +12,4 @@
 <meta(name="apple-mobile-web-app-capable" content='yes')>
 <meta(name="apple-mobile-web-app-status-bar-style" content='default')>
 <link(rel="apple-touch-icon" href=Settings.site.meta.webclipicon)>
-
-<%if noindex?%>
-  <% set_meta_tags noindex: true, nofollow: true%>
-<%end%>
-
 <%= display_meta_tags(default_meta_tags)%>
