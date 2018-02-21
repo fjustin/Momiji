@@ -74,6 +74,8 @@ gem 'google-analytics-rails'
 
 # meta-tag setting
 gem 'meta-tags'
+# ogp setting
+gem 'settingslogic'
 
 # jquery-turbolinks
 # gem 'jquery-turbolinks'
@@ -87,9 +89,6 @@ gem 'devise-bootstrap-views'
 # form of markdown
 gem 'simple_form'
 gem 'pagedown-bootstrap-rails'
-
-# ogp setting
-gem 'settingslogic'
 
 
 group :development, :test do
