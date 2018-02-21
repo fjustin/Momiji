@@ -19,6 +19,7 @@ defaults: &defaults
       twitter:
         title: MOMIJI
         description: 美味しい和菓子が見つかるメディア
+        site: @Justin0370
         image: /assets/wa_1.jpg
     sns_account:
       twitter: https://twitter.com/Justin0370
