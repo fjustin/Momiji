@@ -5,7 +5,7 @@ defaults: &defaults
     name: MOMIJI
     root_url: http://momiji.work/
     meta:
-      title: MOMIJI
+      title: 美味しい和菓子が見つかるメディア
       description: 美味しい和菓子が見つかるメディア
       keywords: 和菓子, スイーツ, MOMIJI
       favicon: /favicon.ico
