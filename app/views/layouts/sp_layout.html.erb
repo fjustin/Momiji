@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<%= analytics_init if Rails.env.production? %>
-  <title>Momiji | 美味しい和菓子が見つかるメディア</title>
+  <%= display_meta_tags(default_meta_tags)%>
+  <meta name="twitter:site" content="@Justin0370">
+  <%= analytics_init if Rails.env.production? %>
   <%= csrf_meta_tags %>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>

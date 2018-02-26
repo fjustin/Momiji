@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106333840-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-106333840-1');
-</script>
-
-    <title>Momiji | 美味しい和菓子が見つかるメディア</title>
-    <%= render partial: 'layouts/meta_tags'%>
+    <%= display_meta_tags(default_meta_tags)%>
+    <meta name="twitter:site" content="@Justin0370">
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'true' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'true' %>
@@ -29,14 +19,13 @@
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12&appId=1913886598627245&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+</script>
     <script>
         (function(w,d){
             var s,e = d.getElementsByTagName("script")[0],
                 a=function(u,f){if(!d.getElementById(f)){s=d.createElement("script");
                     s.async=!0;s.src=u;if(f){s.id=f;}e.parentNode.insertBefore(s,e);}};
-
             a("https://apis.google.com/js/plusone.js");
             a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
             a("//platform.twitter.com/widgets.js","twitter-wjs");
