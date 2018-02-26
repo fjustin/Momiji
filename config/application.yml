@@ -26,9 +26,9 @@ defaults: &defaults
   # 個別ページ
   about:
     meta:
-      title: about page
-      description: about description
-      keywords: about1, about2, about3
+      title: momiji
+      description: 美味しい和菓子について説明している記事です。
+      keywords: MOMIJI, 和菓子
 
 
   # share
