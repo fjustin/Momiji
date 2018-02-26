@@ -114,7 +114,6 @@ span .edit-style a:hover{
 
 // 記事内のデザイン
 .showtitle{
-  margin-left:360px;
   font-weight:bold;
   color:#000000;
   font-size:36px;
@@ -130,6 +129,10 @@ span .edit-style a:hover{
   margin-right:190px;
   font-size:16px;
   line-height:1.7;
+  img{
+    width:650px;
+    height:400px;
+  }
 }
 
 
@@ -161,7 +164,7 @@ span .edit-style a:hover{
 
 .showcontent h3{
   font-weight:bold;
-  font-size:14px;
+  font-size:16px;
 }
 
 #cntnt{
