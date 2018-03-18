@@ -1,16 +1,26 @@
-<h2>Sign up</h2>
+<div class="form-wrapper">
+<h2 class="sign_up">ユーザー登録</h2>
 
 <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :name %><br />
-  <%= f.text_field :name %></div>
+  <div class="form-item">
+    <%= f.label :name %><br />
+    <%= f.text_field :name,:placeholder => "ユーザー名を入力" %>
+  </div>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+  <div class="form-item">
+    <%= f.label :password %><br />
+    <%= f.password_field :password,:placeholder => "パスワードを入力" %>
+  </div>
 
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+  <div class="form-item">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation,:placeholder => "もう一度パスワードを入力" %>
+  </div>
 
-  <div><%= f.submit "Sign up" %></div>
+  <div class="button-panel">
+    <%= f.submit "Sign up",:class => "button" %>
+  </div>
 <% end %>
+</div>
