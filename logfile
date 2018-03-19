@@ -63,3 +63,48 @@ LOG:  database system was shut down at 2018-02-26 00:02:55 JST
 LOG:  MultiXact member wraparound protections are now enabled
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  database system was interrupted; last known up at 2018-03-13 00:21:02 JST
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/18E8FA0: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  column "name" does not exist
+STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")
+ERROR:  duplicate key value violates unique constraint "index_users_on_name"
+DETAIL:  Key (name)=(daiki1) already exists.
+STATEMENT:  INSERT INTO "users" ("encrypted_password", "created_at", "updated_at", "name") VALUES ($1, $2, $3, $4) RETURNING "id"
+ERROR:  column "name" of relation "users" already exists
+STATEMENT:  ALTER TABLE "users" ADD "name" character varying
+ERROR:  column "name" does not exist
+STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")
+ERROR:  column "name" does not exist
+STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")

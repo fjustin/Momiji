@@ -83,12 +83,11 @@ gem 'settingslogic'
 # font-awesome
 gem 'font-awesome-rails'
 
-# login-view
-gem 'devise-bootstrap-views'
-
 # form of markdown
 gem 'simple_form'
 gem 'pagedown-bootstrap-rails'
+
+gem 'rails-i18n'
 
 
 group :development, :test do
