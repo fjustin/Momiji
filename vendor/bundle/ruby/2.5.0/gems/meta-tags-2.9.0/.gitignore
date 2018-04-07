@@ -1,0 +1,10 @@
+.yardoc
+.DS_Store
+.bundle
+Gemfile.lock
+.ruby-gemset
+coverage
+doc
+pkg
+*.gem
+.idea

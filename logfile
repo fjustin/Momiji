@@ -108,3 +108,7 @@ ERROR:  column "name" does not exist
 STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")
 ERROR:  column "name" does not exist
 STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
