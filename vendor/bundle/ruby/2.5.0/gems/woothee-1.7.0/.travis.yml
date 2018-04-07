@@ -1,0 +1,14 @@
+sudo: false
+language: ruby
+rvm:
+  - "2.2"
+  - "2.3.3"
+  - "2.4.1"
+  - "jruby-19mode"
+before_script:
+  - git submodule update --init
+  - gem update bundler
+  - bundle install
+  - bundle update
+script:
+  - make
