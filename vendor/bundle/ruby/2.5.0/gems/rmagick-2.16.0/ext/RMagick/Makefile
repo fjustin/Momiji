@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20180320-41634-ue32d3
-sitelibdir = $(DESTDIR)./.gem.20180320-41634-ue32d3
+sitearchdir = $(DESTDIR)./.gem.20180410-2051-x8koxn
+sitelibdir = $(DESTDIR)./.gem.20180410-2051-x8koxn
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -81,12 +81,12 @@ optflags = -O3
 debugflags = -ggdb3
 warnflags = -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration -Wdivision-by-zero -Wdeprecated-declarations -Wextra-tokens
 CCDLFLAGS = -fno-common
-CFLAGS   = $(CCDLFLAGS)  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.7-5/include/ImageMagick-6 $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS)  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.9-40/include/ImageMagick-6 $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\"  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.7-5/include/ImageMagick-6
+CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\"  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.9-40/include/ImageMagick-6
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
-ldflags  =  -L/usr/local/Cellar/imagemagick@6/6.9.7-5/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16
+ldflags  =  -L/usr/local/Cellar/imagemagick@6/6.9.9-40/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16
 dldflags = -L/Users/futamidaiki/.rbenv/versions/2.5.0/lib  -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
@@ -133,7 +133,7 @@ DISTCLEANDIRS =
 extout = 
 extout_prefix = 
 target_prefix = 
-LOCAL_LIBS =  -L/usr/local/Cellar/imagemagick@6/6.9.7-5/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16
+LOCAL_LIBS =  -L/usr/local/Cellar/imagemagick@6/6.9.9-40/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16
 LIBS =   -lpthread -lgmp -ldl -lobjc 
 ORIG_SRCS = rmagick.c rmdraw.c rmenum.c rmfill.c rmilist.c rmimage.c rminfo.c rmmain.c rmmontage.c rmpixel.c rmstruct.c rmutil.c
 SRCS = $(ORIG_SRCS) 

@@ -112,3 +112,9 @@ LOG:  autovacuum launcher shutting down
 LOG:  received smart shutdown request
 LOG:  shutting down
 LOG:  database system is shut down
+2018-04-13 00:33:19.493 JST [12751] FATAL:  database files are incompatible with server
+2018-04-13 00:33:19.493 JST [12751] DETAIL:  The data directory was initialized by PostgreSQL version 9.6, which is not compatible with this version 10.3.
+2018-04-13 00:33:27.096 JST [12781] FATAL:  database files are incompatible with server
+2018-04-13 00:33:27.096 JST [12781] DETAIL:  The data directory was initialized by PostgreSQL version 9.6, which is not compatible with this version 10.3.
+2018-04-13 00:36:34.747 JST [13027] FATAL:  database files are incompatible with server
+2018-04-13 00:36:34.747 JST [13027] DETAIL:  The data directory was initialized by PostgreSQL version 9.6, which is not compatible with this version 10.3.

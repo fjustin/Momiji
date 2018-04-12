@@ -1,5 +1,5 @@
 current directory: /Users/futamidaiki/Desktop/momiji/Momiji/vendor/bundle/ruby/2.5.0/gems/rmagick-2.16.0/ext/RMagick
-/Users/futamidaiki/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180320-41634-nb8s3f.rb extconf.rb
+/Users/futamidaiki/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180410-2051-17cx1wq.rb extconf.rb
 checking for clang... yes
 checking for Magick-config... yes
 checking for outdated ImageMagick version (<= 6.4.9)... no
@@ -129,13 +129,13 @@ creating Makefile
 
 
 ======================================================================
-Tue 20Mar18 15:48:03
+Tue 10Apr18 16:54:45
 This installation of RMagick 2.16.0 is configured for
-Ruby 2.5.0 (x86_64-darwin17) and ImageMagick 6.9.7
+Ruby 2.5.0 (x86_64-darwin17) and ImageMagick 6.9.9
 ======================================================================
 
 
-Configured compile options: {:magick_config=>true, :with_magick_wand=>true, :pkg_config=>false, :magick_version=>"6.9.7", :local_libs=>" -L/usr/local/Cellar/imagemagick@6/6.9.7-5/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16", :cflags=>" -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.7-5/include/ImageMagick-6", :cppflags=>" -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.7-5/include/ImageMagick-6", :ldflags=>" -L/usr/local/Cellar/imagemagick@6/6.9.7-5/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16", :defs=>[], :config_h=>"Makefile rmagick.h"}
+Configured compile options: {:magick_config=>true, :with_magick_wand=>true, :pkg_config=>false, :magick_version=>"6.9.9", :local_libs=>" -L/usr/local/Cellar/imagemagick@6/6.9.9-40/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16", :cflags=>" -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.9-40/include/ImageMagick-6", :cppflags=>" -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.9-40/include/ImageMagick-6", :ldflags=>" -L/usr/local/Cellar/imagemagick@6/6.9.9-40/lib -lMagickWand-6.Q16 -lMagickCore-6.Q16", :defs=>[], :config_h=>"Makefile rmagick.h"}
 
 current directory: /Users/futamidaiki/Desktop/momiji/Momiji/vendor/bundle/ruby/2.5.0/gems/rmagick-2.16.0/ext/RMagick
 make "DESTDIR=" clean
@@ -152,7 +152,7 @@ rmdraw.c:315:26: warning: comparison of constant 900 with expression of type 'We
                        ~ ^ ~~~
 2 warnings generated.
 compiling rmenum.c
-rmenum.c:461:13: warning: 5 enumeration values not handled in switch: 'DivideSrcCompositeOp', 'MinusSrcCompositeOp', 'DarkenIntensityCompositeOp'... [-Wswitch]
+rmenum.c:461:13: warning: 6 enumeration values not handled in switch: 'DivideSrcCompositeOp', 'MinusSrcCompositeOp', 'DarkenIntensityCompositeOp'... [-Wswitch]
     switch (op)
             ^
 rmenum.c:461:13: note: add missing switch cases
@@ -186,7 +186,7 @@ rmimage.c:3962:5: warning: 'ConstituteComponentTerminus' is deprecated [-Wdeprec
 ./rmagick.h:166:33: note: expanded from macro 'DestroyConstitute'
 #define DestroyConstitute(void) ConstituteComponentTerminus(void)
                                 ^
-/usr/local/Cellar/imagemagick@6/6.9.7-5/include/ImageMagick-6/magick/deprecate.h:328:55: note: 'ConstituteComponentTerminus' has been explicitly marked deprecated here
+/usr/local/Cellar/imagemagick@6/6.9.9-40/include/ImageMagick-6/magick/deprecate.h:328:55: note: 'ConstituteComponentTerminus' has been explicitly marked deprecated here
   ConstituteComponentTerminus(void) magick_attribute((deprecated)),
                                                       ^
 rmimage.c:8284:16: warning: address of array 'image->filename' will always evaluate to 'true' [-Wpointer-bool-conversion]
@@ -212,4 +212,4 @@ linking shared-object RMagick2.bundle
 
 current directory: /Users/futamidaiki/Desktop/momiji/Momiji/vendor/bundle/ruby/2.5.0/gems/rmagick-2.16.0/ext/RMagick
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 RMagick2.bundle ./.gem.20180320-41634-ue32d3
+/usr/bin/install -c -m 0755 RMagick2.bundle ./.gem.20180410-2051-x8koxn
