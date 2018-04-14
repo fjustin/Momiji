@@ -10,9 +10,9 @@ herokuでのデプロイを目指します。<br><br>
 ## 各情報
 - Repository name : Momiji
 - Ruby version : 2.5.0
-- Ruby on Rails : 5.1.5
+- Ruby on Rails : 5.2.5
 - datebase : postgresql
-- saas : heroku
+- Sass : heroku
 
 ## 開発環境設定
 
