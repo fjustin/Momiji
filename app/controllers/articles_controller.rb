@@ -48,7 +48,7 @@ class ArticlesController < ApplicationController
 
   private
   def article_params
-    params[:article].permit(:title,:content,:image,:description,:tag_list,:status,:user_id,:likes)
+    params[:article].permit(Article.column_names.map{|c| c.to_sym})
   end
 
   def set_article
