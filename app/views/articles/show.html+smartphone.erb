@@ -1,6 +1,6 @@
 <div class="showtitle_sp">
     <p><span style="font-size:12px"><%= @article.created_at.strftime("%Y年%m月%d日")%></span></p>
-    <p><%= @article.title%></p>
+    <h2><%= @article.title%></h2>
 </div>
 <div class="showcontent_sp">
     <%= markdown(@article.content).html_safe %>
