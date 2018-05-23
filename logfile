@@ -118,3 +118,12 @@ LOG:  database system is shut down
 2018-04-13 00:33:27.096 JST [12781] DETAIL:  The data directory was initialized by PostgreSQL version 9.6, which is not compatible with this version 10.3.
 2018-04-13 00:36:34.747 JST [13027] FATAL:  database files are incompatible with server
 2018-04-13 00:36:34.747 JST [13027] DETAIL:  The data directory was initialized by PostgreSQL version 9.6, which is not compatible with this version 10.3.
+2018-05-20 22:40:37.088 JST [27733] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-20 22:40:37.088 JST [27733] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-20 22:40:37.095 JST [27733] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-20 22:40:37.173 JST [27734] LOG:  database system was interrupted; last known up at 2018-04-13 20:59:53 JST
+2018-05-20 22:40:37.823 JST [27734] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-20 22:40:37.832 JST [27734] LOG:  redo starts at 0/1665150
+2018-05-20 22:40:37.832 JST [27734] LOG:  invalid record length at 0/1665230: wanted 24, got 0
+2018-05-20 22:40:37.832 JST [27734] LOG:  redo done at 0/16651F8
+2018-05-20 22:40:37.859 JST [27733] LOG:  database system is ready to accept connections
