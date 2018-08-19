@@ -127,3 +127,8 @@ LOG:  database system is shut down
 2018-05-20 22:40:37.832 JST [27734] LOG:  invalid record length at 0/1665230: wanted 24, got 0
 2018-05-20 22:40:37.832 JST [27734] LOG:  redo done at 0/16651F8
 2018-05-20 22:40:37.859 JST [27733] LOG:  database system is ready to accept connections
+2018-08-20 00:33:59.029 JST [52195] LOG:  listening on IPv6 address "::1", port 5432
+2018-08-20 00:33:59.030 JST [52195] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-08-20 00:33:59.030 JST [52195] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-08-20 00:33:59.167 JST [52196] LOG:  database system was shut down at 2018-05-26 23:10:47 JST
+2018-08-20 00:33:59.194 JST [52195] LOG:  database system is ready to accept connections
