@@ -14,13 +14,13 @@
     <%= analytics_init if Rails.env.production? %>
 
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12&appId=1913886598627245&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
-</script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12&appId=1913886598627245&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+    </script>
     <script>
         (function(w,d){
             var s,e = d.getElementsByTagName("script")[0],
@@ -32,6 +32,7 @@
             a("https://widgets.getpocket.com/v1/j/btn.js?v=1");
         })(this, document);
     </script>
+    <meta name="google-site-verification" content="FIhH4XKR8tmlxXp9Sd56se9cyW7blNwjF0SrD66Je-I" />
   </head>
 
 
