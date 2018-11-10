@@ -132,3 +132,8 @@ LOG:  database system is shut down
 2018-08-20 00:33:59.030 JST [52195] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2018-08-20 00:33:59.167 JST [52196] LOG:  database system was shut down at 2018-05-26 23:10:47 JST
 2018-08-20 00:33:59.194 JST [52195] LOG:  database system is ready to accept connections
+2018-11-10 23:04:56.845 JST [10755] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-11-10 23:04:56.859 JST [10755] LOG:  listening on IPv6 address "::1", port 5432
+2018-11-10 23:04:56.885 JST [10755] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-11-10 23:04:57.146 JST [10756] LOG:  database system was shut down at 2018-08-26 15:01:43 JST
+2018-11-10 23:04:57.209 JST [10755] LOG:  database system is ready to accept connections
